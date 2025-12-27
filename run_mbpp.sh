@@ -10,7 +10,6 @@ cd ../generation/
 python main.py \
     --task "mbpp" \
     --model "bigcode/starcoder2-3b" \
-    --model_backend vllm \
     --dataset_path "mbpp" \
     --allow_code_execution \
     --save_generations \

@@ -3,14 +3,14 @@ html2text
 beautifulsoup4
 voyageai
 pyext
-transformers==4.40.0
+transformers==4.51.3
 jsonlines
 rank_bm25
 tenacity
 openai
 tiktoken
 fastwarc
-vllm
+vllm==0.9.2
 chardet
 unidiff
 GitPython
@@ -19,5 +19,5 @@ requests
 elasticsearch
 accelerate
 editdistance
-litellm
+litellm==1.40.8
 google-generativeai
