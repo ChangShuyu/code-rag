@@ -10,9 +10,10 @@ tenacity
 openai
 tiktoken
 fastwarc
-vllm==0.4.2
+vllm
 chardet
 unidiff
 GitPython
 evaluate
 requests
+elasticsearch
