@@ -1,9 +1,8 @@
+cd ./retrieval/
 PYTHONPATH=./ python -m create.mbpp
 
 python eval_beir_sbert_canonical.py \
-    --model "BAAI/bge-base-en-v1.5" \
     --dataset mbpp \
-    --batch_size 64 \
     --output_file results/mbpp_bge_scores.json \
     --results_file results/mbpp_bge_retrieval.json
 

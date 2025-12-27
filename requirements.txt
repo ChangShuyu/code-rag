@@ -17,3 +17,7 @@ GitPython
 evaluate
 requests
 elasticsearch
+accelerate
+editdistance
+litellm
+google-generativeai
