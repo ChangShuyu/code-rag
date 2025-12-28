@@ -4,6 +4,7 @@ beautifulsoup4
 voyageai
 pyext
 transformers==4.51.3
+datasets==3.6.0
 jsonlines
 rank_bm25
 tenacity
@@ -21,3 +22,7 @@ accelerate
 editdistance
 litellm==1.40.8
 google-generativeai
+matplotlib
+tensorflow-cpu
+scipy
+scikit-learn
