@@ -1,0 +1,964 @@
+{"_id": "601_doc", "text": "Write a function to find the longest chain which can be formed from the given set of pairs.", "metadata": {}}
+{"_id": "602_doc", "text": "Write a python function to find the first repeated character in a given string.", "metadata": {}}
+{"_id": "603_doc", "text": "Write a function to get a lucid number smaller than or equal to n.", "metadata": {}}
+{"_id": "604_doc", "text": "Write a function to reverse words in a given string.", "metadata": {}}
+{"_id": "605_doc", "text": "Write a function to check if the given integer is a prime number.", "metadata": {}}
+{"_id": "606_doc", "text": "Write a function to convert degrees to radians.", "metadata": {}}
+{"_id": "607_doc", "text": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs by using regex.", "metadata": {}}
+{"_id": "608_doc", "text": "Write a python function to find nth bell number.", "metadata": {}}
+{"_id": "609_doc", "text": "Write a python function to find minimum possible value for the given periodic function.", "metadata": {}}
+{"_id": "610_doc", "text": "Write a python function to remove the k'th element from a given list.", "metadata": {}}
+{"_id": "611_doc", "text": "Write a function to find the maximum of nth column from the given tuple list.", "metadata": {}}
+{"_id": "612_doc", "text": "Write a python function to merge the first and last elements separately in a list of lists.", "metadata": {}}
+{"_id": "613_doc", "text": "Write a function to find the maximum value in record list as tuple attribute in the given tuple list.", "metadata": {}}
+{"_id": "614_doc", "text": "Write a function to find the cumulative sum of all the values that are present in the given tuple list.", "metadata": {}}
+{"_id": "615_doc", "text": "Write a function to find average value of the numbers in a given tuple of tuples.", "metadata": {}}
+{"_id": "616_doc", "text": "Write a function to perfom the modulo of tuple elements in the given two tuples.", "metadata": {}}
+{"_id": "617_doc", "text": "Write a function to check for the number of jumps required of given length to reach a point of form (d, 0) from origin in a 2d plane.", "metadata": {}}
+{"_id": "618_doc", "text": "Write a function to divide two lists using map and lambda function.", "metadata": {}}
+{"_id": "619_doc", "text": "Write a function to move all the numbers in it to the given string.", "metadata": {}}
+{"_id": "620_doc", "text": "Write a function to find the largest subset where each pair is divisible.", "metadata": {}}
+{"_id": "621_doc", "text": "Write a function to increment the numeric values in the given strings by k.", "metadata": {}}
+{"_id": "622_doc", "text": "Write a function to find the median of two sorted arrays of same size.", "metadata": {}}
+{"_id": "623_doc", "text": "Write a function to find the n-th power of individual elements in a list using lambda function.", "metadata": {}}
+{"_id": "624_doc", "text": "Write a python function to convert the given string to upper case.", "metadata": {}}
+{"_id": "625_doc", "text": "Write a python function to interchange first and last elements in a given list.", "metadata": {}}
+{"_id": "626_doc", "text": "Write a python function to find the largest triangle that can be inscribed in the semicircle.", "metadata": {}}
+{"_id": "627_doc", "text": "Write a python function to find the smallest missing number from the given array.", "metadata": {}}
+{"_id": "628_doc", "text": "Write a function to replace all spaces in the given string with character * list item * list item * list item * list item '%20'.", "metadata": {}}
+{"_id": "629_doc", "text": "Write a python function to find even numbers from a mixed list.", "metadata": {}}
+{"_id": "630_doc", "text": "Write a function to extract all the adjacent coordinates of the given coordinate tuple.", "metadata": {}}
+{"_id": "631_doc", "text": "Write a function to replace whitespaces with an underscore and vice versa in a given string by using regex.", "metadata": {}}
+{"_id": "632_doc", "text": "Write a python function to move all zeroes to the end of the given list.", "metadata": {}}
+{"_id": "633_doc", "text": "Write a python function to find the sum of xor of all pairs of numbers in the given array.", "metadata": {}}
+{"_id": "634_doc", "text": "Write a python function to find the sum of fourth power of first n even natural numbers.", "metadata": {}}
+{"_id": "635_doc", "text": "Write a function to push all values into a heap and then pop off the smallest values one at a time.", "metadata": {}}
+{"_id": "636_doc", "text": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not.", "metadata": {}}
+{"_id": "637_doc", "text": "Write a function to check whether the given amount has no profit and no loss", "metadata": {}}
+{"_id": "638_doc", "text": "Write a function to calculate wind chill index.", "metadata": {}}
+{"_id": "639_doc", "text": "Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter.", "metadata": {}}
+{"_id": "640_doc", "text": "Write a function to remove the parenthesis area in a string.", "metadata": {}}
+{"_id": "641_doc", "text": "Write a function to find the nth nonagonal number.", "metadata": {}}
+{"_id": "642_doc", "text": "Write a function to remove similar rows from the given tuple matrix.", "metadata": {}}
+{"_id": "643_doc", "text": "Write a function that matches a word containing 'z', not at the start or end of the word.", "metadata": {}}
+{"_id": "644_doc", "text": "Write a python function to reverse an array upto a given position.", "metadata": {}}
+{"_id": "645_doc", "text": "Write a function to find the product of it’s kth index in the given tuples.", "metadata": {}}
+{"_id": "646_doc", "text": "Write a python function to count number of cubes of size k in a cube of size n.", "metadata": {}}
+{"_id": "647_doc", "text": "Write a function to split a string at uppercase letters.", "metadata": {}}
+{"_id": "648_doc", "text": "Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th value in a given list.", "metadata": {}}
+{"_id": "649_doc", "text": "Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.", "metadata": {}}
+{"_id": "650_doc", "text": "Write a python function to check whether the given two arrays are equal or not.", "metadata": {}}
+{"_id": "651_doc", "text": "Write a function to check if one tuple is a subset of another tuple.", "metadata": {}}
+{"_id": "652_doc", "text": "Write a function to flatten the given tuple matrix into the tuple list with each tuple representing each column.", "metadata": {}}
+{"_id": "653_doc", "text": "Write a function to group a sequence of key-value pairs into a dictionary of lists using collections module.", "metadata": {}}
+{"_id": "654_doc", "text": "Write a function to find the perimeter of a rectangle.", "metadata": {}}
+{"_id": "655_doc", "text": "Write a python function to find the sum of fifth power of n natural numbers.", "metadata": {}}
+{"_id": "656_doc", "text": "Write a python function to find the minimum sum of absolute differences of two arrays.", "metadata": {}}
+{"_id": "657_doc", "text": "Write a python function to find the first digit in factorial of a given number.", "metadata": {}}
+{"_id": "658_doc", "text": "Write a function to find the item with maximum occurrences in a given list.", "metadata": {}}
+{"_id": "659_doc", "text": "Write a python function to print duplicants from a list of integers.", "metadata": {}}
+{"_id": "660_doc", "text": "Write a python function to choose points from two ranges such that no point lies in both the ranges.", "metadata": {}}
+{"_id": "661_doc", "text": "Write a function to find the maximum sum that can be formed which has no three consecutive elements present.", "metadata": {}}
+{"_id": "662_doc", "text": "Write a function to sort a list in a dictionary.", "metadata": {}}
+{"_id": "663_doc", "text": "Write a function to find the largest possible value of k such that k modulo x is y.", "metadata": {}}
+{"_id": "664_doc", "text": "Write a python function to find the average of even numbers till a given even number.", "metadata": {}}
+{"_id": "665_doc", "text": "Write a python function to shift first element to the end of given list.", "metadata": {}}
+{"_id": "666_doc", "text": "Write a function to count occurrence of a character in a string.", "metadata": {}}
+{"_id": "667_doc", "text": "Write a python function to count number of vowels in the string.", "metadata": {}}
+{"_id": "668_doc", "text": "Write a python function to replace multiple occurence of character by single.", "metadata": {}}
+{"_id": "669_doc", "text": "Write a function to check whether the given ip address is valid or not using regex.", "metadata": {}}
+{"_id": "670_doc", "text": "Write a python function to check whether a sequence of numbers has a decreasing trend or not.", "metadata": {}}
+{"_id": "671_doc", "text": "Write a python function to set the right most unset bit.", "metadata": {}}
+{"_id": "672_doc", "text": "Write a function to find maximum of three numbers.", "metadata": {}}
+{"_id": "673_doc", "text": "Write a python function to convert a list of multiple integers into a single integer.", "metadata": {}}
+{"_id": "674_doc", "text": "Write a function to remove duplicate words from a given string using collections module.", "metadata": {}}
+{"_id": "675_doc", "text": "Write a function to add two integers. however, if the sum is between the given range it will return 20.", "metadata": {}}
+{"_id": "676_doc", "text": "Write a function to remove everything except alphanumeric characters from the given string by using regex.", "metadata": {}}
+{"_id": "677_doc", "text": "Write a function to check if the triangle is valid or not.", "metadata": {}}
+{"_id": "678_doc", "text": "Write a python function to remove spaces from a given string.", "metadata": {}}
+{"_id": "679_doc", "text": "Write a function to access dictionary key’s element by index.", "metadata": {}}
+{"_id": "680_doc", "text": "Write a python function to check whether a sequence of numbers has an increasing trend or not.", "metadata": {}}
+{"_id": "681_doc", "text": "Write a python function to find the smallest prime divisor of a number.", "metadata": {}}
+{"_id": "682_doc", "text": "Write a function to multiply two lists using map and lambda function.", "metadata": {}}
+{"_id": "683_doc", "text": "Write a python function to check whether the given number can be represented by sum of two squares or not.", "metadata": {}}
+{"_id": "684_doc", "text": "Write a python function to count occurences of a character in a repeated string.", "metadata": {}}
+{"_id": "685_doc", "text": "Write a python function to find sum of prime numbers between 1 to n.", "metadata": {}}
+{"_id": "686_doc", "text": "Write a function to find the frequency of each element in the given list.", "metadata": {}}
+{"_id": "687_doc", "text": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion.", "metadata": {}}
+{"_id": "688_doc", "text": "Write a function to get the length of a complex number.", "metadata": {}}
+{"_id": "689_doc", "text": "## write a function to find the minimum number of jumps to reach the end of the array for the given array of integers where each element represents the max number of steps that can be made forward from that element. > indented block > indented block", "metadata": {}}
+{"_id": "690_doc", "text": "Write a function to multiply consecutive numbers of a given list.", "metadata": {}}
+{"_id": "691_doc", "text": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list.", "metadata": {}}
+{"_id": "692_doc", "text": "Write a python function to find the last two digits in factorial of a given number.", "metadata": {}}
+{"_id": "693_doc", "text": "Write a function to remove multiple spaces in a string by using regex.", "metadata": {}}
+{"_id": "694_doc", "text": "Write a function to extract unique values from the given dictionary values.", "metadata": {}}
+{"_id": "695_doc", "text": "Write a function to check if each element of the second tuple is greater than its corresponding index in the first tuple.", "metadata": {}}
+{"_id": "696_doc", "text": "Write a function to zip two given lists of lists.", "metadata": {}}
+{"_id": "697_doc", "text": "Write a function to find number of even elements in the given list using lambda function.", "metadata": {}}
+{"_id": "698_doc", "text": "Write a function to sort dictionary items by tuple product of keys for the given dictionary with tuple keys.", "metadata": {}}
+{"_id": "699_doc", "text": "Write a python function to find the minimum number of swaps required to convert one binary string to another.", "metadata": {}}
+{"_id": "700_doc", "text": "Write a function to count the number of elements in a list which are within a specific range.", "metadata": {}}
+{"_id": "701_doc", "text": "Write a function to find the equilibrium index of the given array.", "metadata": {}}
+{"_id": "702_doc", "text": "Write a function to find the minimum number of elements that should be removed such that amax-amin<=k.", "metadata": {}}
+{"_id": "703_doc", "text": "Write a function to check whether the given key is present in the dictionary or not.", "metadata": {}}
+{"_id": "704_doc", "text": "Write a function to calculate the harmonic sum of n-1.", "metadata": {}}
+{"_id": "705_doc", "text": "Write a function to sort a list of lists by length and value.", "metadata": {}}
+{"_id": "706_doc", "text": "Write a function to find whether an array is subset of another array.", "metadata": {}}
+{"_id": "707_doc", "text": "Write a python function to count the total set bits from 1 to n.", "metadata": {}}
+{"_id": "708_doc", "text": "Write a python function to convert a string to a list.", "metadata": {}}
+{"_id": "709_doc", "text": "Write a function to count unique keys for each value present in the tuple.", "metadata": {}}
+{"_id": "710_doc", "text": "Write a function to access the initial and last data of the given tuple record.", "metadata": {}}
+{"_id": "711_doc", "text": "Write a python function to check whether the product of digits of a number at even and odd places is equal or not.", "metadata": {}}
+{"_id": "712_doc", "text": "Write a function to remove duplicates from a list of lists.", "metadata": {}}
+{"_id": "713_doc", "text": "Write a function to check if the given tuple contains all valid values or not.", "metadata": {}}
+{"_id": "714_doc", "text": "Write a python function to count the number of distinct power of prime factor of given number.", "metadata": {}}
+{"_id": "715_doc", "text": "Write a function to convert the given string of integers into a tuple.", "metadata": {}}
+{"_id": "716_doc", "text": "Write a function to find the perimeter of a rombus.", "metadata": {}}
+{"_id": "717_doc", "text": "Write a function to calculate the standard deviation.", "metadata": {}}
+{"_id": "718_doc", "text": "Write a function to create a list taking alternate elements from another given list.", "metadata": {}}
+{"_id": "719_doc", "text": "Write a function that matches a string that has an a followed by zero or more b's.", "metadata": {}}
+{"_id": "720_doc", "text": "Write a function to add a dictionary to the tuple.", "metadata": {}}
+{"_id": "721_doc", "text": "Write a function to find a path with the maximum average over all existing paths for the given square matrix of size n*n.", "metadata": {}}
+{"_id": "722_doc", "text": "Write a function to filter the height and width of students which are stored in a dictionary.", "metadata": {}}
+{"_id": "723_doc", "text": "Write a function to count the same pair in two given lists using map function.", "metadata": {}}
+{"_id": "724_doc", "text": "Write a function to calculate the sum of all digits of the base to the specified power.", "metadata": {}}
+{"_id": "725_doc", "text": "Write a function to extract values between quotation marks of the given string by using regex.", "metadata": {}}
+{"_id": "726_doc", "text": "Write a function to multiply the adjacent elements of the given tuple.", "metadata": {}}
+{"_id": "727_doc", "text": "Write a function to remove all characters except letters and numbers using regex", "metadata": {}}
+{"_id": "728_doc", "text": "Write a function to sum elements in two lists.", "metadata": {}}
+{"_id": "729_doc", "text": "Write a function to add two lists using map and lambda function.", "metadata": {}}
+{"_id": "730_doc", "text": "Write a function to remove consecutive duplicates of a given list.", "metadata": {}}
+{"_id": "731_doc", "text": "Write a function to find the lateral surface area of a cone.", "metadata": {}}
+{"_id": "732_doc", "text": "Write a function to replace all occurrences of spaces, commas, or dots with a colon.", "metadata": {}}
+{"_id": "733_doc", "text": "Write a function to find the index of the first occurrence of a given number in a sorted array.", "metadata": {}}
+{"_id": "734_doc", "text": "Write a python function to find sum of products of all possible subarrays.", "metadata": {}}
+{"_id": "735_doc", "text": "Write a python function to toggle bits of the number except the first and the last bit.", "metadata": {}}
+{"_id": "736_doc", "text": "Write a function to locate the left insertion point for a specified value in sorted order.", "metadata": {}}
+{"_id": "737_doc", "text": "Write a function to check whether the given string is starting with a vowel or not using regex.", "metadata": {}}
+{"_id": "738_doc", "text": "Write a function to calculate the geometric sum of n-1.", "metadata": {}}
+{"_id": "739_doc", "text": "Write a python function to find the index of smallest triangular number with n digits.", "metadata": {}}
+{"_id": "740_doc", "text": "Write a function to convert the given tuple to a key-value dictionary using adjacent elements.", "metadata": {}}
+{"_id": "741_doc", "text": "Write a python function to check whether all the characters are same or not.", "metadata": {}}
+{"_id": "742_doc", "text": "Write a function to caluclate the area of a tetrahedron.", "metadata": {}}
+{"_id": "743_doc", "text": "Write a function to rotate a given list by specified number of items to the right direction.", "metadata": {}}
+{"_id": "744_doc", "text": "Write a function to check if the given tuple has any none value or not.", "metadata": {}}
+{"_id": "745_doc", "text": "Write a function to find numbers within a given range where every number is divisible by every digit it contains.", "metadata": {}}
+{"_id": "746_doc", "text": "Write a function to find area of a sector.", "metadata": {}}
+{"_id": "747_doc", "text": "Write a function to find the longest common subsequence for the given three string sequence.", "metadata": {}}
+{"_id": "748_doc", "text": "Write a function to put spaces between words starting with capital letters in a given string by using regex.", "metadata": {}}
+{"_id": "749_doc", "text": "Write a function to sort a given list of strings of numbers numerically.", "metadata": {}}
+{"_id": "750_doc", "text": "Write a function to add the given tuple to the given list.", "metadata": {}}
+{"_id": "751_doc", "text": "Write a function to check if the given array represents min heap or not.", "metadata": {}}
+{"_id": "752_doc", "text": "Write a function to find the nth jacobsthal number.", "metadata": {}}
+{"_id": "753_doc", "text": "Write a function to find minimum k records from tuple list.", "metadata": {}}
+{"_id": "754_doc", "text": "Write a function to find common index elements from three lists.", "metadata": {}}
+{"_id": "755_doc", "text": "Write a function to find the second smallest number in a list.", "metadata": {}}
+{"_id": "756_doc", "text": "Write a function that matches a string that has an a followed by zero or one 'b'.", "metadata": {}}
+{"_id": "757_doc", "text": "Write a function to count the pairs of reverse strings in the given string list.", "metadata": {}}
+{"_id": "758_doc", "text": "Write a function to count number of unique lists within a list.", "metadata": {}}
+{"_id": "759_doc", "text": "Write a function to check a decimal with a precision of 2.", "metadata": {}}
+{"_id": "760_doc", "text": "Write a python function to check whether an array contains only one distinct element or not.", "metadata": {}}
+{"_id": "761_doc", "text": "Write a function to caluclate arc length of an angle.", "metadata": {}}
+{"_id": "762_doc", "text": "Write a function to check whether the given month number contains 30 days or not.", "metadata": {}}
+{"_id": "763_doc", "text": "Write a python function to find the minimum difference between any two elements in a given array.", "metadata": {}}
+{"_id": "764_doc", "text": "Write a python function to count numeric values in a given string.", "metadata": {}}
+{"_id": "765_doc", "text": "Write a function to find nth polite number.", "metadata": {}}
+{"_id": "766_doc", "text": "Write a function to iterate over all pairs of consecutive items in a given list.", "metadata": {}}
+{"_id": "767_doc", "text": "Write a python function to count the number of pairs whose sum is equal to ‘sum’.", "metadata": {}}
+{"_id": "768_doc", "text": "Write a python function to check for odd parity of a given number.", "metadata": {}}
+{"_id": "769_doc", "text": "Write a python function to get the difference between two lists.", "metadata": {}}
+{"_id": "770_doc", "text": "Write a python function to find the sum of fourth power of first n odd natural numbers.", "metadata": {}}
+{"_id": "771_doc", "text": "Write a function to check if the given expression is balanced or not.", "metadata": {}}
+{"_id": "772_doc", "text": "Write a function to remove all the words with k length in the given string.", "metadata": {}}
+{"_id": "773_doc", "text": "Write a function to find the occurrence and position of the substrings within a string.", "metadata": {}}
+{"_id": "774_doc", "text": "Write a function to check if the string is a valid email address or not using regex.", "metadata": {}}
+{"_id": "775_doc", "text": "Write a python function to check whether every odd index contains odd numbers of a given list.", "metadata": {}}
+{"_id": "776_doc", "text": "Write a function to count those characters which have vowels as their neighbors in the given string.", "metadata": {}}
+{"_id": "777_doc", "text": "Write a python function to find the sum of non-repeated elements in a given array.", "metadata": {}}
+{"_id": "778_doc", "text": "Write a function to pack consecutive duplicates of a given list elements into sublists.", "metadata": {}}
+{"_id": "779_doc", "text": "Write a function to count the number of unique lists within a list.", "metadata": {}}
+{"_id": "780_doc", "text": "Write a function to find the combinations of sums with tuples in the given tuple list.", "metadata": {}}
+{"_id": "781_doc", "text": "Write a python function to check whether the count of divisors is even or odd.", "metadata": {}}
+{"_id": "782_doc", "text": "Write a python function to find the sum of all odd length subarrays.", "metadata": {}}
+{"_id": "783_doc", "text": "Write a function to convert rgb color to hsv color.", "metadata": {}}
+{"_id": "784_doc", "text": "Write a function to find the product of first even and odd number of a given list.", "metadata": {}}
+{"_id": "785_doc", "text": "Write a function to convert tuple string to integer tuple.", "metadata": {}}
+{"_id": "786_doc", "text": "Write a function to locate the right insertion point for a specified value in sorted order.", "metadata": {}}
+{"_id": "787_doc", "text": "Write a function that matches a string that has an a followed by three 'b'.", "metadata": {}}
+{"_id": "788_doc", "text": "Write a function to create a new tuple from the given string and list.", "metadata": {}}
+{"_id": "789_doc", "text": "Write a function to calculate the perimeter of a regular polygon.", "metadata": {}}
+{"_id": "790_doc", "text": "Write a python function to check whether every even index contains even numbers of a given list.", "metadata": {}}
+{"_id": "791_doc", "text": "Write a function to remove the nested record from the given tuple.", "metadata": {}}
+{"_id": "792_doc", "text": "Write a python function to count the number of lists in a given number of lists.", "metadata": {}}
+{"_id": "793_doc", "text": "Write a python function to find the last position of an element in a sorted array.", "metadata": {}}
+{"_id": "794_doc", "text": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'.", "metadata": {}}
+{"_id": "795_doc", "text": "Write a function to find the n - cheap price items from a given dataset using heap queue algorithm.", "metadata": {}}
+{"_id": "796_doc", "text": "Write function to find the sum of all items in the given dictionary.", "metadata": {}}
+{"_id": "797_doc", "text": "Write a python function to find the sum of all odd natural numbers within the range l and r.", "metadata": {}}
+{"_id": "798_doc", "text": "Write a python function to find the sum of an array.", "metadata": {}}
+{"_id": "799_doc", "text": "Write a python function to left rotate the bits of a given number.", "metadata": {}}
+{"_id": "800_doc", "text": "Write a function to remove all whitespaces from a string.", "metadata": {}}
+{"_id": "801_doc", "text": "Write a python function to count the number of equal numbers from three given integers.", "metadata": {}}
+{"_id": "802_doc", "text": "Write a python function to count the number of rotations required to generate a sorted array.", "metadata": {}}
+{"_id": "803_doc", "text": "Write a python function to check whether the given number is a perfect square or not.", "metadata": {}}
+{"_id": "804_doc", "text": "Write a python function to check whether the product of numbers is even or not.", "metadata": {}}
+{"_id": "805_doc", "text": "Write a function to find the list in a list of lists whose sum of elements is the highest.", "metadata": {}}
+{"_id": "806_doc", "text": "Write a function to find maximum run of uppercase characters in the given string.", "metadata": {}}
+{"_id": "807_doc", "text": "Write a python function to find the first odd number in a given list of numbers.", "metadata": {}}
+{"_id": "808_doc", "text": "Write a function to check if the given tuples contain the k or not.", "metadata": {}}
+{"_id": "809_doc", "text": "Write a function to check if each element of second tuple is smaller than its corresponding index in first tuple.", "metadata": {}}
+{"_id": "810_doc", "text": "Write a function to iterate over elements repeating each as many times as its count.", "metadata": {}}
+{"_id": "811_doc", "text": "Write a function to check if two lists of tuples are identical or not.", "metadata": {}}
+{"_id": "812_doc", "text": "Write a function to abbreviate 'road' as 'rd.' in a given string.", "metadata": {}}
+{"_id": "813_doc", "text": "Write a function to find length of the string.", "metadata": {}}
+{"_id": "814_doc", "text": "Write a function to find the area of a rombus.", "metadata": {}}
+{"_id": "815_doc", "text": "Write a function to sort the given array without using any sorting algorithm. the given array consists of only 0, 1, and 2.", "metadata": {}}
+{"_id": "816_doc", "text": "Write a function to clear the values of the given tuples.", "metadata": {}}
+{"_id": "817_doc", "text": "Write a function to find numbers divisible by m or n from a list of numbers using lambda function.", "metadata": {}}
+{"_id": "818_doc", "text": "Write a python function to count lower case letters in a given string.", "metadata": {}}
+{"_id": "819_doc", "text": "Write a function to count the frequency of consecutive duplicate elements in a given list of numbers.", "metadata": {}}
+{"_id": "820_doc", "text": "Write a function to check whether the given month number contains 28 days or not.", "metadata": {}}
+{"_id": "821_doc", "text": "Write a function to merge two dictionaries into a single expression.", "metadata": {}}
+{"_id": "822_doc", "text": "Write a function to return true if the password is valid.", "metadata": {}}
+{"_id": "823_doc", "text": "Write a function to check if the given string starts with a substring using regex.", "metadata": {}}
+{"_id": "824_doc", "text": "Write a python function to remove even numbers from a given list.", "metadata": {}}
+{"_id": "825_doc", "text": "Write a python function to access multiple elements of specified index from a given list.", "metadata": {}}
+{"_id": "826_doc", "text": "Write a python function to find the type of triangle from the given sides.", "metadata": {}}
+{"_id": "827_doc", "text": "Write a function to sum a specific column of a list in a given list of lists.", "metadata": {}}
+{"_id": "828_doc", "text": "Write a function to count alphabets,digits and special charactes in a given string.", "metadata": {}}
+{"_id": "829_doc", "text": "Write a function to find out the second most repeated (or frequent) string in the given sequence.", "metadata": {}}
+{"_id": "830_doc", "text": "Write a function to round up a number to specific digits.", "metadata": {}}
+{"_id": "831_doc", "text": "Write a python function to count equal element pairs from the given array.", "metadata": {}}
+{"_id": "832_doc", "text": "Write a function to extract the maximum numeric value from a string by using regex.", "metadata": {}}
+{"_id": "833_doc", "text": "Write a function to get dictionary keys as a list.", "metadata": {}}
+{"_id": "834_doc", "text": "Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order.", "metadata": {}}
+{"_id": "835_doc", "text": "Write a python function to find the slope of a line.", "metadata": {}}
+{"_id": "836_doc", "text": "Write a function to find length of the subarray having maximum sum.", "metadata": {}}
+{"_id": "837_doc", "text": "Write a python function to find the cube sum of first n odd natural numbers.", "metadata": {}}
+{"_id": "838_doc", "text": "Write a python function to find minimum number swaps required to make two binary strings equal.", "metadata": {}}
+{"_id": "839_doc", "text": "Write a function to sort the tuples alphabetically by the first item of each tuple.", "metadata": {}}
+{"_id": "840_doc", "text": "Write a python function to check whether the roots of a quadratic equation are numerically equal but opposite in sign or not.", "metadata": {}}
+{"_id": "841_doc", "text": "Write a function to count the number of inversions in the given array.", "metadata": {}}
+{"_id": "842_doc", "text": "Write a function to find the number which occurs for odd number of times in the given array.", "metadata": {}}
+{"_id": "843_doc", "text": "Write a function to find the nth super ugly number from a given prime list of size k using heap queue algorithm.", "metadata": {}}
+{"_id": "844_doc", "text": "Write a python function to find the kth element in an array containing odd elements first and then even elements.", "metadata": {}}
+{"_id": "845_doc", "text": "Write a python function to count the number of digits in factorial of a given number.", "metadata": {}}
+{"_id": "846_doc", "text": "Write a function to find the minimum number of platforms required for a railway/bus station.", "metadata": {}}
+{"_id": "847_doc", "text": "Write a python function to copy a list from a singleton tuple.", "metadata": {}}
+{"_id": "848_doc", "text": "Write a function to find the area of a trapezium.", "metadata": {}}
+{"_id": "849_doc", "text": "Write a python function to find sum of all prime divisors of a given number.", "metadata": {}}
+{"_id": "850_doc", "text": "Write a function to check if a triangle of positive area is possible with the given angles.", "metadata": {}}
+{"_id": "851_doc", "text": "Write a python function to find sum of inverse of divisors.", "metadata": {}}
+{"_id": "852_doc", "text": "Write a python function to remove negative numbers from a list.", "metadata": {}}
+{"_id": "853_doc", "text": "Write a python function to find sum of odd factors of a number.", "metadata": {}}
+{"_id": "854_doc", "text": "Write a function which accepts an arbitrary list and converts it to a heap using heap queue algorithm.", "metadata": {}}
+{"_id": "855_doc", "text": "Write a python function to check for even parity of a given number.", "metadata": {}}
+{"_id": "856_doc", "text": "Write a python function to find minimum adjacent swaps required to sort binary array.", "metadata": {}}
+{"_id": "857_doc", "text": "Write a function to list out the list of given strings individually using map function.", "metadata": {}}
+{"_id": "858_doc", "text": "Write a function to count number of lists in a given list of lists and square the count.", "metadata": {}}
+{"_id": "859_doc", "text": "Write a function to generate all sublists of a given list.", "metadata": {}}
+{"_id": "860_doc", "text": "Write a function to check whether the given string is ending with only alphanumeric characters or not using regex.", "metadata": {}}
+{"_id": "861_doc", "text": "Write a function to find all anagrams of a string in a given list of strings using lambda function.", "metadata": {}}
+{"_id": "862_doc", "text": "Write a function to find the occurrences of n most common words in a given text.", "metadata": {}}
+{"_id": "863_doc", "text": "Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers.", "metadata": {}}
+{"_id": "864_doc", "text": "Write a function to find palindromes in a given list of strings using lambda function.", "metadata": {}}
+{"_id": "865_doc", "text": "Write a function to print n-times a list using map function.", "metadata": {}}
+{"_id": "866_doc", "text": "Write a function to check whether the given month name contains 31 days or not.", "metadata": {}}
+{"_id": "867_doc", "text": "Write a python function to add a minimum number such that the sum of array becomes even.", "metadata": {}}
+{"_id": "868_doc", "text": "Write a python function to find the length of the last word in a given string.", "metadata": {}}
+{"_id": "869_doc", "text": "Write a function to remove sublists from a given list of lists, which are outside a given range.", "metadata": {}}
+{"_id": "870_doc", "text": "Write a function to calculate the sum of the positive numbers of a given list of numbers using lambda function.", "metadata": {}}
+{"_id": "871_doc", "text": "Write a python function to check whether the given strings are rotations of each other or not.", "metadata": {}}
+{"_id": "872_doc", "text": "Write a function to check if a nested list is a subset of another nested list.", "metadata": {}}
+{"_id": "873_doc", "text": "Write a function to solve the fibonacci sequence using recursion.", "metadata": {}}
+{"_id": "874_doc", "text": "Write a python function to check if the string is a concatenation of another string.", "metadata": {}}
+{"_id": "875_doc", "text": "Write a function to find the minimum difference in the tuple pairs of given tuples.", "metadata": {}}
+{"_id": "876_doc", "text": "Write a python function to find lcm of two positive integers.", "metadata": {}}
+{"_id": "877_doc", "text": "Write a python function to sort the given string.", "metadata": {}}
+{"_id": "878_doc", "text": "Write a function to check if the given tuple contains only k elements.", "metadata": {}}
+{"_id": "879_doc", "text": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b' by using regex.", "metadata": {}}
+{"_id": "880_doc", "text": "Write a python function to find number of solutions in quadratic equation.", "metadata": {}}
+{"_id": "881_doc", "text": "Write a function to find the sum of first even and odd number of a given list.", "metadata": {}}
+{"_id": "882_doc", "text": "Write a function to caluclate perimeter of a parallelogram.", "metadata": {}}
+{"_id": "883_doc", "text": "Write a function to find numbers divisible by m and n from a list of numbers using lambda function.", "metadata": {}}
+{"_id": "884_doc", "text": "Write a python function to check whether all the bits are within a given range or not.", "metadata": {}}
+{"_id": "885_doc", "text": "Write a python function to check whether the two given strings are isomorphic to each other or not.", "metadata": {}}
+{"_id": "886_doc", "text": "Write a function to add all the numbers in a list and divide it with the length of the list.", "metadata": {}}
+{"_id": "887_doc", "text": "Write a python function to check whether the given number is odd or not using bitwise operator.", "metadata": {}}
+{"_id": "888_doc", "text": "Write a function to substract the elements of the given nested tuples.", "metadata": {}}
+{"_id": "889_doc", "text": "Write a function to reverse each list in a given list of lists.", "metadata": {}}
+{"_id": "890_doc", "text": "Write a python function to find the index of an extra element present in one sorted array.", "metadata": {}}
+{"_id": "891_doc", "text": "Write a python function to check whether the given two numbers have same number of digits or not.", "metadata": {}}
+{"_id": "892_doc", "text": "Write a function to remove multiple spaces in a string.", "metadata": {}}
+{"_id": "893_doc", "text": "Write a python function to get the last element of each sublist.", "metadata": {}}
+{"_id": "894_doc", "text": "Write a function to convert the given string of float type into tuple.", "metadata": {}}
+{"_id": "895_doc", "text": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements.", "metadata": {}}
+{"_id": "896_doc", "text": "Write a function to sort a list in increasing order by the last element in each tuple from a given list of non-empty tuples.", "metadata": {}}
+{"_id": "897_doc", "text": "Write a python function to check whether the word is present in a given sentence or not.", "metadata": {}}
+{"_id": "898_doc", "text": "Write a function to extract specified number of elements from a given list, which follow each other continuously.", "metadata": {}}
+{"_id": "899_doc", "text": "Write a python function to check whether an array can be sorted or not by picking only the corner elements.", "metadata": {}}
+{"_id": "900_doc", "text": "Write a function where a string will start with a specific number.", "metadata": {}}
+{"_id": "901_doc", "text": "Write a function to find the smallest multiple of the first n numbers.", "metadata": {}}
+{"_id": "902_doc", "text": "Write a function to combine two dictionaries by adding values for common keys.", "metadata": {}}
+{"_id": "903_doc", "text": "Write a python function to count the total unset bits from 1 to n.", "metadata": {}}
+{"_id": "904_doc", "text": "Write a function to return true if the given number is even else return false.", "metadata": {}}
+{"_id": "905_doc", "text": "Write a python function to find the sum of squares of binomial co-efficients.", "metadata": {}}
+{"_id": "906_doc", "text": "Write a function to extract year, month and date from a url by using regex.", "metadata": {}}
+{"_id": "907_doc", "text": "Write a function to print the first n lucky numbers.", "metadata": {}}
+{"_id": "908_doc", "text": "Write a function to find the fixed point in the given array.", "metadata": {}}
+{"_id": "909_doc", "text": "Write a function to find the previous palindrome of a specified number.", "metadata": {}}
+{"_id": "910_doc", "text": "Write a function to validate a gregorian date.", "metadata": {}}
+{"_id": "911_doc", "text": "Write a function to compute maximum product of three numbers of a given array of integers using heap queue algorithm.", "metadata": {}}
+{"_id": "912_doc", "text": "Write a function to find ln, m lobb number.", "metadata": {}}
+{"_id": "913_doc", "text": "Write a function to check for a number at the end of a string.", "metadata": {}}
+{"_id": "914_doc", "text": "Write a python function to check whether the given string is made up of two alternating characters or not.", "metadata": {}}
+{"_id": "915_doc", "text": "Write a function to rearrange positive and negative numbers in a given array using lambda function.", "metadata": {}}
+{"_id": "916_doc", "text": "Write a function to find if there is a triplet in the array whose sum is equal to a given value.", "metadata": {}}
+{"_id": "917_doc", "text": "Write a function to find the sequences of one upper case letter followed by lower case letters.", "metadata": {}}
+{"_id": "918_doc", "text": "Write a function to count coin change.", "metadata": {}}
+{"_id": "919_doc", "text": "Write a python function to multiply all items in the list.", "metadata": {}}
+{"_id": "920_doc", "text": "Write a function to remove all tuples with all none values in the given tuple list.", "metadata": {}}
+{"_id": "921_doc", "text": "Write a function to perform chunking of tuples each of size n.", "metadata": {}}
+{"_id": "922_doc", "text": "Write a function to find a pair with the highest product from a given array of integers.", "metadata": {}}
+{"_id": "923_doc", "text": "Write a function to find the length of the shortest string that has both str1 and str2 as subsequences.", "metadata": {}}
+{"_id": "924_doc", "text": "Write a function to find maximum of two numbers.", "metadata": {}}
+{"_id": "925_doc", "text": "Write a python function to calculate the product of all the numbers of a given tuple.", "metadata": {}}
+{"_id": "926_doc", "text": "Write a function to find n-th rencontres number.", "metadata": {}}
+{"_id": "927_doc", "text": "Write a function to calculate the height of the given binary tree.", "metadata": {}}
+{"_id": "928_doc", "text": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.", "metadata": {}}
+{"_id": "929_doc", "text": "Write a function to count repeated items of a tuple.", "metadata": {}}
+{"_id": "930_doc", "text": "Write a function that matches a string that has an a followed by zero or more b's by using regex.", "metadata": {}}
+{"_id": "931_doc", "text": "Write a function to calculate the sum of series 1³+2³+3³+….+n³.", "metadata": {}}
+{"_id": "932_doc", "text": "Write a function to remove duplicate words from a given list of strings.", "metadata": {}}
+{"_id": "933_doc", "text": "Write a function to convert camel case string to snake case string by using regex.", "metadata": {}}
+{"_id": "934_doc", "text": "Write a function to find the nth delannoy number.", "metadata": {}}
+{"_id": "935_doc", "text": "Write a function to calculate the sum of series 1²+2²+3²+….+n².", "metadata": {}}
+{"_id": "936_doc", "text": "Write a function to re-arrange the given tuples based on the given ordered list.", "metadata": {}}
+{"_id": "937_doc", "text": "Write a function to count the most common character in a given string.", "metadata": {}}
+{"_id": "938_doc", "text": "Write a function to find three closest elements from three sorted arrays.", "metadata": {}}
+{"_id": "939_doc", "text": "Write a function to sort a list of dictionaries using lambda function.", "metadata": {}}
+{"_id": "940_doc", "text": "Write a function to sort the given array by using heap sort.", "metadata": {}}
+{"_id": "941_doc", "text": "Write a function to count the elements in a list until an element is a tuple.", "metadata": {}}
+{"_id": "942_doc", "text": "Write a function to check if any list element is present in the given list.", "metadata": {}}
+{"_id": "943_doc", "text": "Write a function to combine two given sorted lists using heapq module.", "metadata": {}}
+{"_id": "944_doc", "text": "Write a function to separate and print the numbers and their position of a given string.", "metadata": {}}
+{"_id": "945_doc", "text": "Write a function to convert the given tuples into set.", "metadata": {}}
+{"_id": "946_doc", "text": "Write a function to find the most common elements and their counts of a specified text.", "metadata": {}}
+{"_id": "947_doc", "text": "Write a python function to find the length of the shortest word.", "metadata": {}}
+{"_id": "948_doc", "text": "Write a function to get an item of a tuple.", "metadata": {}}
+{"_id": "949_doc", "text": "Write a function to sort the given tuple list basis the total digits in tuple.", "metadata": {}}
+{"_id": "950_doc", "text": "Write a function to display sign of the chinese zodiac for given year.", "metadata": {}}
+{"_id": "951_doc", "text": "Write a function to find the maximum of similar indices in two lists of tuples.", "metadata": {}}
+{"_id": "952_doc", "text": "Write a function to compute the value of ncr mod p.", "metadata": {}}
+{"_id": "953_doc", "text": "Write a python function to find the minimun number of subsets with distinct elements.", "metadata": {}}
+{"_id": "954_doc", "text": "Write a function that gives profit amount if the given amount has profit else return none.", "metadata": {}}
+{"_id": "955_doc", "text": "Write a function to find out, if the given number is abundant.", "metadata": {}}
+{"_id": "956_doc", "text": "Write a function to split the given string at uppercase letters by using regex.", "metadata": {}}
+{"_id": "957_doc", "text": "Write a python function to get the position of rightmost set bit.", "metadata": {}}
+{"_id": "958_doc", "text": "Write a function to convert an integer into a roman numeral.", "metadata": {}}
+{"_id": "959_doc", "text": "Write a python function to find the average of a list.", "metadata": {}}
+{"_id": "960_doc", "text": "Write a function to solve tiling problem.", "metadata": {}}
+{"_id": "961_doc", "text": "Write a function to convert a roman numeral to an integer.", "metadata": {}}
+{"_id": "962_doc", "text": "Write a python function to find the sum of all even natural numbers within the range l and r.", "metadata": {}}
+{"_id": "963_doc", "text": "Write a function to calculate the discriminant value.", "metadata": {}}
+{"_id": "964_doc", "text": "Write a python function to check whether the length of the word is even or not.", "metadata": {}}
+{"_id": "965_doc", "text": "Write a function to convert camel case string to snake case string.", "metadata": {}}
+{"_id": "966_doc", "text": "Write a function to remove an empty tuple from a list of tuples.", "metadata": {}}
+{"_id": "967_doc", "text": "Write a python function to accept the strings which contains all vowels.", "metadata": {}}
+{"_id": "968_doc", "text": "Write a python function to find maximum possible value for the given periodic function.", "metadata": {}}
+{"_id": "969_doc", "text": "Write a function to join the tuples if they have similar initial elements.", "metadata": {}}
+{"_id": "970_doc", "text": "Write a function to find minimum of two numbers.", "metadata": {}}
+{"_id": "971_doc", "text": "Write a function to find the maximum number of segments of lengths a, b and c that can be formed from n.", "metadata": {}}
+{"_id": "972_doc", "text": "Write a function to concatenate the given two tuples to a nested tuple.", "metadata": {}}
+{"_id": "973_doc", "text": "Write a python function to left rotate the string.", "metadata": {}}
+{"_id": "974_doc", "text": "Write a function to find the minimum total path sum in the given triangle.", "metadata": {}}
+{"_id": "511_doc", "text": "Write a python function to find minimum sum of factors of a given number.", "metadata": {}}
+{"_id": "512_doc", "text": "Write a function to count the element frequency in the mixed nested tuple.", "metadata": {}}
+{"_id": "513_doc", "text": "Write a function to convert tuple into list by adding the given string after every element.", "metadata": {}}
+{"_id": "514_doc", "text": "Write a function to find the summation of tuple elements in the given tuple list.", "metadata": {}}
+{"_id": "515_doc", "text": "Write a function to check if there is a subset with sum divisible by m.", "metadata": {}}
+{"_id": "516_doc", "text": "Write a function to sort a list of elements using radix sort.", "metadata": {}}
+{"_id": "517_doc", "text": "Write a python function to find the largest postive number from the given list.", "metadata": {}}
+{"_id": "518_doc", "text": "Write a function to find the square root of a perfect number.", "metadata": {}}
+{"_id": "519_doc", "text": "Write a function to calculate volume of a tetrahedron.", "metadata": {}}
+{"_id": "520_doc", "text": "Write a function to find the lcm of the given array elements.", "metadata": {}}
+{"_id": "521_doc", "text": "Write a function to print check if the triangle is scalene or not.", "metadata": {}}
+{"_id": "522_doc", "text": "Write a function to find the longest bitonic subsequence for the given array.", "metadata": {}}
+{"_id": "523_doc", "text": "Write a function to check whether a given string has a capital letter, a lower case letter, a number and specified length using lambda function.", "metadata": {}}
+{"_id": "524_doc", "text": "Write a function to find the sum of maximum increasing subsequence of the given array.", "metadata": {}}
+{"_id": "525_doc", "text": "Write a python function to check whether two given lines are parallel or not.", "metadata": {}}
+{"_id": "526_doc", "text": "Write a python function to capitalize first and last letters of each word of a given string.", "metadata": {}}
+{"_id": "527_doc", "text": "Write a function to find all pairs in an integer array whose sum is equal to a given number.", "metadata": {}}
+{"_id": "528_doc", "text": "Write a function to find the list of lists with minimum length.", "metadata": {}}
+{"_id": "529_doc", "text": "Write a function to find the nth jacobsthal-lucas number.", "metadata": {}}
+{"_id": "530_doc", "text": "Write a function to find the ration of negative numbers in an array of integers.", "metadata": {}}
+{"_id": "531_doc", "text": "Write a function to find minimum number of coins that make a given value.", "metadata": {}}
+{"_id": "532_doc", "text": "Write a function to check if the two given strings are permutations of each other.", "metadata": {}}
+{"_id": "533_doc", "text": "Write a function to remove particular data type elements from the given tuple.", "metadata": {}}
+{"_id": "534_doc", "text": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs.", "metadata": {}}
+{"_id": "535_doc", "text": "Write a function to find the top or bottom surface area of a cylinder.", "metadata": {}}
+{"_id": "536_doc", "text": "Write a function to select the nth items of a list.", "metadata": {}}
+{"_id": "537_doc", "text": "Write a python function to find the first repeated word in a given string.", "metadata": {}}
+{"_id": "538_doc", "text": "Write a python function to convert a given string list to a tuple.", "metadata": {}}
+{"_id": "539_doc", "text": "Write a function to create a list containing the power of said number in bases raised to the corresponding number in the index using map function.", "metadata": {}}
+{"_id": "540_doc", "text": "Write a python function to find the difference between highest and least frequencies in a given array.", "metadata": {}}
+{"_id": "541_doc", "text": "Write a function to find if the given number is abundant or not.", "metadata": {}}
+{"_id": "542_doc", "text": "Write a function to replace all occurrences of spaces, commas, or dots with a colon in the given string by using regex.", "metadata": {}}
+{"_id": "543_doc", "text": "Write a function to add two numbers and print number of digits of sum.", "metadata": {}}
+{"_id": "544_doc", "text": "Write a function to flatten the tuple list to a string.", "metadata": {}}
+{"_id": "545_doc", "text": "Write a python function to toggle only first and last bits of a given number.", "metadata": {}}
+{"_id": "546_doc", "text": "Write a function to find the last occurrence of a character in a string.", "metadata": {}}
+{"_id": "547_doc", "text": "Write a python function to find the sum of hamming distances of all consecutive numbers from o to n.", "metadata": {}}
+{"_id": "548_doc", "text": "Write a function to find the length of the longest increasing subsequence of the given sequence.", "metadata": {}}
+{"_id": "549_doc", "text": "Write a python function to find the sum of fifth power of first n odd natural numbers.", "metadata": {}}
+{"_id": "550_doc", "text": "Write a python function to find the maximum element in a sorted and rotated array.", "metadata": {}}
+{"_id": "551_doc", "text": "Write a function to extract a specified column from a given nested list.", "metadata": {}}
+{"_id": "552_doc", "text": "Write a python function to check whether a given sequence is linear or not.", "metadata": {}}
+{"_id": "553_doc", "text": "Write a function to convert the given tuple to a floating-point number.", "metadata": {}}
+{"_id": "554_doc", "text": "Write a python function to find odd numbers from a mixed list.", "metadata": {}}
+{"_id": "555_doc", "text": "Write a python function to find the difference between sum of cubes of first n natural numbers and the sum of first n natural numbers.", "metadata": {}}
+{"_id": "556_doc", "text": "Write a python function to count the pairs with xor as an odd number.", "metadata": {}}
+{"_id": "557_doc", "text": "Write a function to toggle characters case in a string.", "metadata": {}}
+{"_id": "558_doc", "text": "Write a python function to find the digit distance between two integers.", "metadata": {}}
+{"_id": "559_doc", "text": "Write a function to find the largest sum of contiguous subarray in the given array.", "metadata": {}}
+{"_id": "560_doc", "text": "Write a function to find the union of elements of the given tuples.", "metadata": {}}
+{"_id": "561_doc", "text": "Write a function to assign with each element, its pair elements from other similar pairs in the given tuple.", "metadata": {}}
+{"_id": "562_doc", "text": "Write a python function to find the maximum length of sublist.", "metadata": {}}
+{"_id": "563_doc", "text": "Write a function to extract values between quotation marks of a string.", "metadata": {}}
+{"_id": "564_doc", "text": "Write a python function to count unequal element pairs from the given array.", "metadata": {}}
+{"_id": "565_doc", "text": "Write a python function to split a string into characters.", "metadata": {}}
+{"_id": "566_doc", "text": "Write a function to get the sum of a non-negative integer.", "metadata": {}}
+{"_id": "567_doc", "text": "Write a function to check whether a specified list is sorted or not.", "metadata": {}}
+{"_id": "568_doc", "text": "Write a function to create a list of empty dictionaries.", "metadata": {}}
+{"_id": "569_doc", "text": "Write a function to sort each sublist of strings in a given list of lists.", "metadata": {}}
+{"_id": "570_doc", "text": "Write a function to remove words from a given list of strings containing a character or string.", "metadata": {}}
+{"_id": "571_doc", "text": "Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k.", "metadata": {}}
+{"_id": "572_doc", "text": "Write a python function to remove two duplicate numbers from a given number of lists.", "metadata": {}}
+{"_id": "573_doc", "text": "Write a python function to calculate the product of the unique numbers of a given list.", "metadata": {}}
+{"_id": "574_doc", "text": "Write a function to find the surface area of a cylinder.", "metadata": {}}
+{"_id": "575_doc", "text": "Write a python function to find nth number in a sequence which is not a multiple of a given number.", "metadata": {}}
+{"_id": "576_doc", "text": "Write a python function to check whether an array is subarray of another or not.", "metadata": {}}
+{"_id": "577_doc", "text": "Write a python function to find the last digit in factorial of a given number.", "metadata": {}}
+{"_id": "578_doc", "text": "Write a function to interleave lists of the same length.", "metadata": {}}
+{"_id": "579_doc", "text": "Write a function to find the dissimilar elements in the given two tuples.", "metadata": {}}
+{"_id": "580_doc", "text": "Write a function to extract the even elements in the nested mixed tuple.", "metadata": {}}
+{"_id": "581_doc", "text": "Write a python function to find the surface area of the square pyramid.", "metadata": {}}
+{"_id": "582_doc", "text": "Write a function to check if a dictionary is empty or not.", "metadata": {}}
+{"_id": "583_doc", "text": "Write a function for nth catalan number.", "metadata": {}}
+{"_id": "584_doc", "text": "Write a function to find all adverbs and their positions in a given sentence by using regex.", "metadata": {}}
+{"_id": "585_doc", "text": "Write a function to find the n - expensive price items from a given dataset using heap queue algorithm.", "metadata": {}}
+{"_id": "586_doc", "text": "Write a python function to split the array and add the first part to the end.", "metadata": {}}
+{"_id": "587_doc", "text": "Write a function to convert a list to a tuple.", "metadata": {}}
+{"_id": "588_doc", "text": "Write a python function to find the difference between largest and smallest value in a given array.", "metadata": {}}
+{"_id": "589_doc", "text": "Write a function to find perfect squares between two given numbers.", "metadata": {}}
+{"_id": "590_doc", "text": "Write a function to convert polar coordinates to rectangular coordinates.", "metadata": {}}
+{"_id": "591_doc", "text": "Write a python function to interchange the first and last elements in a list.", "metadata": {}}
+{"_id": "592_doc", "text": "Write a python function to find sum of product of binomial co-efficients.", "metadata": {}}
+{"_id": "593_doc", "text": "Write a function to remove leading zeroes from an ip address.", "metadata": {}}
+{"_id": "594_doc", "text": "Write a function to find the difference of first even and odd number of a given list.", "metadata": {}}
+{"_id": "595_doc", "text": "Write a python function to count minimum number of swaps required to convert one binary string to another.", "metadata": {}}
+{"_id": "596_doc", "text": "Write a function to find the size of the given tuple.", "metadata": {}}
+{"_id": "597_doc", "text": "Write a function to find kth element from the given two sorted arrays.", "metadata": {}}
+{"_id": "598_doc", "text": "Write a function to check whether the given number is armstrong or not.", "metadata": {}}
+{"_id": "599_doc", "text": "Write a function to find sum and average of first n natural numbers.", "metadata": {}}
+{"_id": "600_doc", "text": "Write a python function to check whether the given number is even or not using bitwise operator.", "metadata": {}}
+{"_id": "11_doc", "text": "Write a python function to remove first and last occurrence of a given character from the string.", "metadata": {}}
+{"_id": "12_doc", "text": "Write a function to sort a given matrix in ascending order according to the sum of its rows.", "metadata": {}}
+{"_id": "13_doc", "text": "Write a function to count the most common words in a dictionary.", "metadata": {}}
+{"_id": "14_doc", "text": "Write a python function to find the volume of a triangular prism.", "metadata": {}}
+{"_id": "15_doc", "text": "Write a function to split a string at lowercase letters.", "metadata": {}}
+{"_id": "16_doc", "text": "Write a function to find sequences of lowercase letters joined with an underscore.", "metadata": {}}
+{"_id": "17_doc", "text": "Write a function to find the perimeter of a square.", "metadata": {}}
+{"_id": "18_doc", "text": "Write a function to remove characters from the first string which are present in the second string.", "metadata": {}}
+{"_id": "19_doc", "text": "Write a function to find whether a given array of integers contains any duplicate element.", "metadata": {}}
+{"_id": "20_doc", "text": "Write a function to check if the given number is woodball or not.", "metadata": {}}
+{"_id": "21_doc", "text": "Write a function to find m number of multiples of n.", "metadata": {}}
+{"_id": "22_doc", "text": "Write a function to find the first duplicate element in a given array of integers.", "metadata": {}}
+{"_id": "23_doc", "text": "Write a python function to find the maximum sum of elements of list in a list of lists.", "metadata": {}}
+{"_id": "24_doc", "text": "Write a function to convert the given binary number to its decimal equivalent.", "metadata": {}}
+{"_id": "25_doc", "text": "Write a python function to find the product of non-repeated elements in a given array.", "metadata": {}}
+{"_id": "26_doc", "text": "Write a function to check if the given tuple list has all k elements.", "metadata": {}}
+{"_id": "27_doc", "text": "Write a python function to remove all digits from a list of strings.", "metadata": {}}
+{"_id": "28_doc", "text": "Write a python function to find binomial co-efficient.", "metadata": {}}
+{"_id": "29_doc", "text": "Write a python function to find the element occurring odd number of times.", "metadata": {}}
+{"_id": "30_doc", "text": "Write a python function to count all the substrings starting and ending with same characters.", "metadata": {}}
+{"_id": "31_doc", "text": "Write a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm.", "metadata": {}}
+{"_id": "32_doc", "text": "Write a python function to find the largest prime factor of a given number.", "metadata": {}}
+{"_id": "33_doc", "text": "Write a python function to convert a decimal number to binary number.", "metadata": {}}
+{"_id": "34_doc", "text": "Write a python function to find the missing number in a sorted array.", "metadata": {}}
+{"_id": "35_doc", "text": "Write a function to find the n-th rectangular number.", "metadata": {}}
+{"_id": "36_doc", "text": "Write a python function to find the nth digit in the proper fraction of two given numbers.", "metadata": {}}
+{"_id": "37_doc", "text": "Write a function to sort a given mixed list of integers and strings.", "metadata": {}}
+{"_id": "38_doc", "text": "Write a function to find the division of first even and odd number of a given list.", "metadata": {}}
+{"_id": "39_doc", "text": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.", "metadata": {}}
+{"_id": "40_doc", "text": "Write a function to find frequency of the elements in a given list of lists using collections module.", "metadata": {}}
+{"_id": "41_doc", "text": "Write a function to filter even numbers using lambda function.", "metadata": {}}
+{"_id": "42_doc", "text": "Write a python function to find the sum of repeated elements in a given array.", "metadata": {}}
+{"_id": "43_doc", "text": "Write a function to find sequences of lowercase letters joined with an underscore using regex.", "metadata": {}}
+{"_id": "44_doc", "text": "Write a function that matches a word at the beginning of a string.", "metadata": {}}
+{"_id": "45_doc", "text": "Write a function to find the gcd of the given array elements.", "metadata": {}}
+{"_id": "46_doc", "text": "Write a python function to determine whether all the numbers are different from each other are not.", "metadata": {}}
+{"_id": "47_doc", "text": "Write a python function to find the last digit when factorial of a divides factorial of b.", "metadata": {}}
+{"_id": "48_doc", "text": "Write a python function to set all odd bits of a given number.", "metadata": {}}
+{"_id": "49_doc", "text": "Write a function to extract every first or specified element from a given two-dimensional list.", "metadata": {}}
+{"_id": "50_doc", "text": "Write a function to find the list with minimum length using lambda function.", "metadata": {}}
+{"_id": "51_doc", "text": "Write a function to print check if the triangle is equilateral or not.", "metadata": {}}
+{"_id": "52_doc", "text": "Write a function to caluclate area of a parallelogram.", "metadata": {}}
+{"_id": "53_doc", "text": "Write a python function to check whether the first and last characters of a given string are equal or not.", "metadata": {}}
+{"_id": "54_doc", "text": "Write a function to sort the given array by using counting sort.", "metadata": {}}
+{"_id": "55_doc", "text": "Write a function to find t-nth term of geometric series.", "metadata": {}}
+{"_id": "56_doc", "text": "Write a python function to check if a given number is one less than twice its reverse.", "metadata": {}}
+{"_id": "57_doc", "text": "Write a python function to find the largest number that can be formed with the given digits.", "metadata": {}}
+{"_id": "58_doc", "text": "Write a python function to check whether the given two integers have opposite sign or not.", "metadata": {}}
+{"_id": "59_doc", "text": "Write a function to find the nth octagonal number.", "metadata": {}}
+{"_id": "60_doc", "text": "Write a function to find the maximum length of the subsequence with difference between adjacent elements for the given array.", "metadata": {}}
+{"_id": "61_doc", "text": "Write a python function to count number of substrings with the sum of digits equal to their length.", "metadata": {}}
+{"_id": "62_doc", "text": "Write a python function to find smallest number in a list.", "metadata": {}}
+{"_id": "63_doc", "text": "Write a function to find the maximum difference between available pairs in the given tuple list.", "metadata": {}}
+{"_id": "64_doc", "text": "Write a function to sort a list of tuples using lambda.", "metadata": {}}
+{"_id": "65_doc", "text": "Write a function of recursion list sum.", "metadata": {}}
+{"_id": "66_doc", "text": "Write a python function to count positive numbers in a list.", "metadata": {}}
+{"_id": "67_doc", "text": "Write a function to find the number of ways to partition a set of bell numbers.", "metadata": {}}
+{"_id": "68_doc", "text": "Write a python function to check whether the given array is monotonic or not.", "metadata": {}}
+{"_id": "69_doc", "text": "Write a function to check whether a list contains the given sublist or not.", "metadata": {}}
+{"_id": "70_doc", "text": "Write a function to find whether all the given tuples have equal length or not.", "metadata": {}}
+{"_id": "71_doc", "text": "Write a function to sort a list of elements using comb sort.", "metadata": {}}
+{"_id": "72_doc", "text": "Write a python function to check whether the given number can be represented as difference of two squares or not.", "metadata": {}}
+{"_id": "73_doc", "text": "Write a function to split the given string with multiple delimiters by using regex.", "metadata": {}}
+{"_id": "74_doc", "text": "Write a function to check whether it follows the sequence given in the patterns array.", "metadata": {}}
+{"_id": "75_doc", "text": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.", "metadata": {}}
+{"_id": "76_doc", "text": "Write a python function to count the number of squares in a rectangle.", "metadata": {}}
+{"_id": "77_doc", "text": "Write a python function to find the difference between sum of even and odd digits.", "metadata": {}}
+{"_id": "78_doc", "text": "Write a python function to find number of integers with odd number of set bits.", "metadata": {}}
+{"_id": "79_doc", "text": "Write a python function to check whether the length of the word is odd or not.", "metadata": {}}
+{"_id": "80_doc", "text": "Write a function to find the nth tetrahedral number.", "metadata": {}}
+{"_id": "81_doc", "text": "Write a function to zip the two given tuples.", "metadata": {}}
+{"_id": "82_doc", "text": "Write a function to find the volume of a sphere.", "metadata": {}}
+{"_id": "83_doc", "text": "Write a python function to find the character made by adding all the characters of the given string.", "metadata": {}}
+{"_id": "84_doc", "text": "Write a function to find the n-th number in newman conway sequence.", "metadata": {}}
+{"_id": "85_doc", "text": "Write a function to find the surface area of a sphere.", "metadata": {}}
+{"_id": "86_doc", "text": "Write a function to find nth centered hexagonal number.", "metadata": {}}
+{"_id": "87_doc", "text": "Write a function to merge three dictionaries into a single expression.", "metadata": {}}
+{"_id": "88_doc", "text": "Write a function to get the frequency of the elements in a list.", "metadata": {}}
+{"_id": "89_doc", "text": "Write a function to find the closest smaller number than n.", "metadata": {}}
+{"_id": "90_doc", "text": "Write a python function to find the length of the longest word.", "metadata": {}}
+{"_id": "91_doc", "text": "Write a function to check if a substring is present in a given list of string values.", "metadata": {}}
+{"_id": "92_doc", "text": "Write a function to check whether the given number is undulating or not.", "metadata": {}}
+{"_id": "93_doc", "text": "Write a function to calculate the value of 'a' to the power 'b'.", "metadata": {}}
+{"_id": "94_doc", "text": "Write a function to extract the index minimum value record from the given tuples.", "metadata": {}}
+{"_id": "95_doc", "text": "Write a python function to find the minimum length of sublist.", "metadata": {}}
+{"_id": "96_doc", "text": "Write a python function to find the number of divisors of a given integer.", "metadata": {}}
+{"_id": "97_doc", "text": "Write a function to find frequency count of list of lists.", "metadata": {}}
+{"_id": "98_doc", "text": "Write a function to multiply all the numbers in a list and divide with the length of the list.", "metadata": {}}
+{"_id": "99_doc", "text": "Write a function to convert the given decimal number to its binary equivalent.", "metadata": {}}
+{"_id": "100_doc", "text": "Write a function to find the next smallest palindrome of a specified number.", "metadata": {}}
+{"_id": "101_doc", "text": "Write a function to find the kth element in the given array.", "metadata": {}}
+{"_id": "102_doc", "text": "Write a function to convert snake case string to camel case string.", "metadata": {}}
+{"_id": "103_doc", "text": "Write a function to find eulerian number a(n, m).", "metadata": {}}
+{"_id": "104_doc", "text": "Write a function to sort each sublist of strings in a given list of lists using lambda function.", "metadata": {}}
+{"_id": "105_doc", "text": "Write a python function to count true booleans in the given list.", "metadata": {}}
+{"_id": "106_doc", "text": "Write a function to add the given list to the given tuples.", "metadata": {}}
+{"_id": "107_doc", "text": "Write a python function to count hexadecimal numbers for a given range.", "metadata": {}}
+{"_id": "108_doc", "text": "Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm.", "metadata": {}}
+{"_id": "109_doc", "text": "Write a python function to find the count of rotations of a binary string with odd value.", "metadata": {}}
+{"_id": "110_doc", "text": "Write a function to extract the ranges that are missing from the given list with the given start range and end range values.", "metadata": {}}
+{"_id": "111_doc", "text": "Write a function to find common elements in given nested lists. * list item * list item * list item * list item", "metadata": {}}
+{"_id": "112_doc", "text": "Write a python function to find the perimeter of a cylinder.", "metadata": {}}
+{"_id": "113_doc", "text": "Write a function to check if a string represents an integer or not.", "metadata": {}}
+{"_id": "114_doc", "text": "Write a function to assign frequency to each tuple in the given tuple list.", "metadata": {}}
+{"_id": "115_doc", "text": "Write a function to check whether all dictionaries in a list are empty or not.", "metadata": {}}
+{"_id": "116_doc", "text": "Write a function to convert a given tuple of positive integers into an integer.", "metadata": {}}
+{"_id": "117_doc", "text": "Write a function to convert all possible convertible elements in the list to float.", "metadata": {}}
+{"_id": "118_doc", "text": "[link text](https:// [link text](https:// [link text](https://)))write a function to convert a string to a list.", "metadata": {}}
+{"_id": "119_doc", "text": "Write a python function to find the element that appears only once in a sorted array.", "metadata": {}}
+{"_id": "120_doc", "text": "Write a function to find the maximum product from the pairs of tuples within a given list.", "metadata": {}}
+{"_id": "121_doc", "text": "Write a function to find the triplet with sum of the given array", "metadata": {}}
+{"_id": "122_doc", "text": "Write a function to find n’th smart number.", "metadata": {}}
+{"_id": "123_doc", "text": "Write a function to sum all amicable numbers from 1 to a specified number.", "metadata": {}}
+{"_id": "124_doc", "text": "Write a function to get the angle of a complex number.", "metadata": {}}
+{"_id": "125_doc", "text": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.", "metadata": {}}
+{"_id": "126_doc", "text": "Write a python function to find the sum of common divisors of two given numbers.", "metadata": {}}
+{"_id": "127_doc", "text": "Write a function to multiply two integers without using the * operator in python.", "metadata": {}}
+{"_id": "128_doc", "text": "Write a function to shortlist words that are longer than n from a given list of words.", "metadata": {}}
+{"_id": "129_doc", "text": "Write a function to calculate magic square.", "metadata": {}}
+{"_id": "130_doc", "text": "Write a function to find the item with maximum frequency in a given list.", "metadata": {}}
+{"_id": "131_doc", "text": "Write a python function to reverse only the vowels of a given string.", "metadata": {}}
+{"_id": "132_doc", "text": "Write a function to convert tuple to a string.", "metadata": {}}
+{"_id": "133_doc", "text": "Write a function to calculate the sum of the negative numbers of a given list of numbers using lambda function.", "metadata": {}}
+{"_id": "134_doc", "text": "Write a python function to check whether the last element of given array is even or odd after performing an operation p times.", "metadata": {}}
+{"_id": "135_doc", "text": "Write a function to find the nth hexagonal number.", "metadata": {}}
+{"_id": "136_doc", "text": "Write a function to calculate electricity bill.", "metadata": {}}
+{"_id": "137_doc", "text": "Write a function to find the ration of zeroes in an array of integers.", "metadata": {}}
+{"_id": "138_doc", "text": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.", "metadata": {}}
+{"_id": "139_doc", "text": "Write a function to find the circumference of a circle.", "metadata": {}}
+{"_id": "140_doc", "text": "Write a function to extract elements that occur singly in the given tuple list.", "metadata": {}}
+{"_id": "141_doc", "text": "Write a function to sort a list of elements using pancake sort.", "metadata": {}}
+{"_id": "142_doc", "text": "Write a function to count the same pair in three given lists.", "metadata": {}}
+{"_id": "143_doc", "text": "Write a function to find number of lists present in the given tuple.", "metadata": {}}
+{"_id": "144_doc", "text": "Write a python function to find the sum of absolute differences in all pairs of the given array.", "metadata": {}}
+{"_id": "145_doc", "text": "Write a python function to find the maximum difference between any two elements in a given array.", "metadata": {}}
+{"_id": "146_doc", "text": "Write a function to find the ascii value of total characters in a string.", "metadata": {}}
+{"_id": "147_doc", "text": "Write a function to find the maximum total path sum in the given triangle.", "metadata": {}}
+{"_id": "148_doc", "text": "Write a function to divide a number into two parts such that the sum of digits is maximum.", "metadata": {}}
+{"_id": "149_doc", "text": "Write a function to find the longest subsequence such that the difference between adjacents is one for the given array.", "metadata": {}}
+{"_id": "150_doc", "text": "Write a python function to find whether the given number is present in the infinite sequence or not.", "metadata": {}}
+{"_id": "151_doc", "text": "Write a python function to check whether the given number is co-prime or not.", "metadata": {}}
+{"_id": "152_doc", "text": "Write a function to sort the given array by using merge sort.", "metadata": {}}
+{"_id": "153_doc", "text": "Write a function to find the vertex of a parabola.", "metadata": {}}
+{"_id": "154_doc", "text": "Write a function to extract every specified element from a given two dimensional list.", "metadata": {}}
+{"_id": "155_doc", "text": "Write a python function to toggle all even bits of a given number.", "metadata": {}}
+{"_id": "156_doc", "text": "Write a function to convert a tuple of string values to a tuple of integer values.", "metadata": {}}
+{"_id": "157_doc", "text": "Write a function to reflect the run-length encoding from a list.", "metadata": {}}
+{"_id": "158_doc", "text": "Write a python function to find k number of operations required to make all elements equal.", "metadata": {}}
+{"_id": "159_doc", "text": "Write a function to print the season for the given month and day.", "metadata": {}}
+{"_id": "160_doc", "text": "Write a function to find x and y that satisfies ax + by = n.", "metadata": {}}
+{"_id": "161_doc", "text": "Write a function to remove all elements from a given list present in another list.", "metadata": {}}
+{"_id": "162_doc", "text": "Write a function to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).", "metadata": {}}
+{"_id": "163_doc", "text": "Write a function to calculate the area of a regular polygon.", "metadata": {}}
+{"_id": "164_doc", "text": "Write a python function to check whether the sum of divisors are same or not.", "metadata": {}}
+{"_id": "165_doc", "text": "Write a python function to count characters at same position in a given string (lower and uppercase characters) as in english alphabet.", "metadata": {}}
+{"_id": "166_doc", "text": "Write a python function to count the pairs with xor as an even number.", "metadata": {}}
+{"_id": "167_doc", "text": "Write a python function to find smallest power of 2 greater than or equal to n.", "metadata": {}}
+{"_id": "168_doc", "text": "Write a python function to find the frequency of a number in a given array.", "metadata": {}}
+{"_id": "169_doc", "text": "Write a function to calculate the nth pell number.", "metadata": {}}
+{"_id": "170_doc", "text": "Write a function to find sum of the numbers in a list between the indices of a specified range.", "metadata": {}}
+{"_id": "171_doc", "text": "Write a function to find the perimeter of a pentagon.", "metadata": {}}
+{"_id": "172_doc", "text": "Write a function to find the occurence of characters 'std' in the given string 1. list item 1. list item 1. list item 2. list item 2. list item 2. list item", "metadata": {}}
+{"_id": "173_doc", "text": "Write a function to remove everything except alphanumeric characters from a string.", "metadata": {}}
+{"_id": "174_doc", "text": "Write a function to group a sequence of key-value pairs into a dictionary of lists.", "metadata": {}}
+{"_id": "175_doc", "text": "Write a function to verify validity of a string of parentheses.", "metadata": {}}
+{"_id": "176_doc", "text": "Write a function to find the perimeter of a triangle.", "metadata": {}}
+{"_id": "177_doc", "text": "Write a python function to find two distinct numbers such that their lcm lies within the given range.", "metadata": {}}
+{"_id": "178_doc", "text": "Write a function to search some literals strings in a string.", "metadata": {}}
+{"_id": "179_doc", "text": "Write a function to find if the given number is a keith number or not.", "metadata": {}}
+{"_id": "180_doc", "text": "Write a function to calculate distance between two points using latitude and longitude.", "metadata": {}}
+{"_id": "181_doc", "text": "Write a function to find the longest common prefix in the given set of strings.", "metadata": {}}
+{"_id": "182_doc", "text": "Write a function to find uppercase, lowercase, special character and numeric values using regex.", "metadata": {}}
+{"_id": "183_doc", "text": "Write a function to count all the distinct pairs having a difference of k in any array.", "metadata": {}}
+{"_id": "184_doc", "text": "Write a function to find all the values in a list that are greater than a specified number.", "metadata": {}}
+{"_id": "185_doc", "text": "Write a function to find the focus of a parabola.", "metadata": {}}
+{"_id": "186_doc", "text": "Write a function to search some literals strings in a string by using regex.", "metadata": {}}
+{"_id": "187_doc", "text": "Write a function to find the longest common subsequence for the given two sequences.", "metadata": {}}
+{"_id": "188_doc", "text": "Write a python function to check whether the given number can be represented by product of two squares or not.", "metadata": {}}
+{"_id": "189_doc", "text": "Write a python function to find the first missing positive number.", "metadata": {}}
+{"_id": "190_doc", "text": "Write a python function to count the number of integral co-ordinates that lie inside a square.", "metadata": {}}
+{"_id": "191_doc", "text": "Write a function to check whether the given month name contains 30 days or not.", "metadata": {}}
+{"_id": "192_doc", "text": "Write a python function to check whether a string has atleast one letter and one number.", "metadata": {}}
+{"_id": "193_doc", "text": "Write a function to remove the duplicates from the given tuple.", "metadata": {}}
+{"_id": "194_doc", "text": "Write a python function to convert octal number to decimal number.", "metadata": {}}
+{"_id": "195_doc", "text": "Write a python function to find the first position of an element in a sorted array.", "metadata": {}}
+{"_id": "196_doc", "text": "Write a function to remove all the tuples with length k.", "metadata": {}}
+{"_id": "197_doc", "text": "Write a function to perform the exponentiation of the given two tuples.", "metadata": {}}
+{"_id": "198_doc", "text": "Write a function to find the largest triangle that can be inscribed in an ellipse.", "metadata": {}}
+{"_id": "199_doc", "text": "Write a python function to find highest power of 2 less than or equal to given number.", "metadata": {}}
+{"_id": "200_doc", "text": "Write a function to find all index positions of the maximum values in a given list.", "metadata": {}}
+{"_id": "201_doc", "text": "Write a python function to check whether the elements in a list are same or not.", "metadata": {}}
+{"_id": "202_doc", "text": "Write a function to remove even characters in a string.", "metadata": {}}
+{"_id": "203_doc", "text": "Write a python function to find the hamming distance between given two integers.", "metadata": {}}
+{"_id": "204_doc", "text": "Write a python function to count the occurrence of a given character in a string.", "metadata": {}}
+{"_id": "205_doc", "text": "Write a function to find the inversions of tuple elements in the given tuple list.", "metadata": {}}
+{"_id": "206_doc", "text": "Write a function to perform the adjacent element concatenation in the given tuples.", "metadata": {}}
+{"_id": "207_doc", "text": "Write a function to count the longest repeating subsequences such that the two subsequences don’t have same string characters at same positions.", "metadata": {}}
+{"_id": "208_doc", "text": "Write a function to check the given decimal with a precision of 2 by using regex.", "metadata": {}}
+{"_id": "209_doc", "text": "Write a function to delete the smallest element from the given heap and then insert a new item.", "metadata": {}}
+{"_id": "210_doc", "text": "Write a function to check that the given string contains only a certain set of characters(in this case a-z, a-z and 0-9) by using regex.", "metadata": {}}
+{"_id": "211_doc", "text": "Write a python function to count numbers whose oth and nth bits are set.", "metadata": {}}
+{"_id": "212_doc", "text": "Write a python function to find the sum of fourth power of n natural numbers.", "metadata": {}}
+{"_id": "213_doc", "text": "Write a function to perform the concatenation of two string tuples.", "metadata": {}}
+{"_id": "214_doc", "text": "Write a function to convert radians to degrees.", "metadata": {}}
+{"_id": "215_doc", "text": "Write a function to decode a run-length encoded given list.", "metadata": {}}
+{"_id": "216_doc", "text": "Write a function to check if a nested list is a subset of another nested list.", "metadata": {}}
+{"_id": "217_doc", "text": "Write a python function to find the first repeated character in a given string.", "metadata": {}}
+{"_id": "218_doc", "text": "Write a python function to find the minimum operations required to make two numbers equal.", "metadata": {}}
+{"_id": "219_doc", "text": "Write a function to extract maximum and minimum k elements in the given tuple.", "metadata": {}}
+{"_id": "220_doc", "text": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.", "metadata": {}}
+{"_id": "221_doc", "text": "Write a python function to find the first even number in a given list of numbers.", "metadata": {}}
+{"_id": "222_doc", "text": "Write a function to check if all the elements in tuple have same data type or not.", "metadata": {}}
+{"_id": "223_doc", "text": "Write a function to check for majority element in the given sorted array.", "metadata": {}}
+{"_id": "224_doc", "text": "Write a python function to count set bits of a given number.", "metadata": {}}
+{"_id": "225_doc", "text": "Write a python function to find the minimum element in a sorted and rotated array.", "metadata": {}}
+{"_id": "226_doc", "text": "Write a python function to remove the characters which have odd index values of a given string.", "metadata": {}}
+{"_id": "227_doc", "text": "Write a function to find minimum of three numbers.", "metadata": {}}
+{"_id": "228_doc", "text": "Write a python function to check whether all the bits are unset in the given range or not.", "metadata": {}}
+{"_id": "229_doc", "text": "Write a function to re-arrange the elements of the given array so that all negative elements appear before positive ones.", "metadata": {}}
+{"_id": "230_doc", "text": "Write a function to replace blank spaces with any character in a string.", "metadata": {}}
+{"_id": "231_doc", "text": "Write a function to find the maximum sum in the given right triangle of numbers.", "metadata": {}}
+{"_id": "232_doc", "text": "Write a function to get the n largest items from a dataset.", "metadata": {}}
+{"_id": "233_doc", "text": "Write a function to find the lateral surface area of a cylinder.", "metadata": {}}
+{"_id": "234_doc", "text": "Write a function to find the volume of a cube.", "metadata": {}}
+{"_id": "235_doc", "text": "Write a python function to set all even bits of a given number.", "metadata": {}}
+{"_id": "236_doc", "text": "Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle.", "metadata": {}}
+{"_id": "237_doc", "text": "Write a function to check the occurrences of records which occur similar times in the given tuples.", "metadata": {}}
+{"_id": "238_doc", "text": "Write a python function to count number of non-empty substrings of a given string.", "metadata": {}}
+{"_id": "239_doc", "text": "Write a function to find the number of possible sequences of length n such that each of the next element is greater than or equal to twice of the previous element but less than or equal to m.", "metadata": {}}
+{"_id": "240_doc", "text": "Write a function to replace the last element of the list with another list.", "metadata": {}}
+{"_id": "241_doc", "text": "Write a function to generate a 3d array having each element as '*'.", "metadata": {}}
+{"_id": "242_doc", "text": "Write a function to count total characters in a string.", "metadata": {}}
+{"_id": "243_doc", "text": "Write a function to sort the given list based on the occurrence of first element of tuples.", "metadata": {}}
+{"_id": "244_doc", "text": "Write a python function to find the next perfect square greater than a given number.", "metadata": {}}
+{"_id": "245_doc", "text": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.", "metadata": {}}
+{"_id": "246_doc", "text": "Write a function for computing square roots using the babylonian method.", "metadata": {}}
+{"_id": "247_doc", "text": "Write a function to find the longest palindromic subsequence in the given string.", "metadata": {}}
+{"_id": "248_doc", "text": "Write a function to calculate the harmonic sum of n-1.", "metadata": {}}
+{"_id": "249_doc", "text": "Write a function to find the intersection of two arrays using lambda function.", "metadata": {}}
+{"_id": "250_doc", "text": "Write a python function to count the occcurences of an element in a tuple.", "metadata": {}}
+{"_id": "251_doc", "text": "Write a function to insert an element before each element of a list.", "metadata": {}}
+{"_id": "252_doc", "text": "Write a python function to convert complex numbers to polar coordinates.", "metadata": {}}
+{"_id": "253_doc", "text": "Write a python function to count integers from a given list.", "metadata": {}}
+{"_id": "254_doc", "text": "Write a function to find all words starting with 'a' or 'e' in a given string.", "metadata": {}}
+{"_id": "255_doc", "text": "Write a function to choose specified number of colours from three different colours and generate all the combinations with repetitions.", "metadata": {}}
+{"_id": "256_doc", "text": "Write a python function to count the number of prime numbers less than a given non-negative number.", "metadata": {}}
+{"_id": "257_doc", "text": "Write a function to swap two numbers.", "metadata": {}}
+{"_id": "258_doc", "text": "Write a function to find number of odd elements in the given list using lambda function.", "metadata": {}}
+{"_id": "259_doc", "text": "Write a function to maximize the given two tuples.", "metadata": {}}
+{"_id": "260_doc", "text": "Write a function to find the nth newman–shanks–williams prime number.", "metadata": {}}
+{"_id": "261_doc", "text": "Write a function to perform mathematical division operation across the given tuples.", "metadata": {}}
+{"_id": "262_doc", "text": "Write a function to split a given list into two parts where the length of the first part of the list is given.", "metadata": {}}
+{"_id": "263_doc", "text": "Write a function to merge two dictionaries.", "metadata": {}}
+{"_id": "264_doc", "text": "Write a function to calculate a dog's age in dog's years.", "metadata": {}}
+{"_id": "265_doc", "text": "Write a function to split a list for every nth element.", "metadata": {}}
+{"_id": "266_doc", "text": "Write a function to find the lateral surface area of a cube.", "metadata": {}}
+{"_id": "267_doc", "text": "Write a python function to find the sum of squares of first n odd natural numbers.", "metadata": {}}
+{"_id": "268_doc", "text": "Write a function to find the n'th star number.", "metadata": {}}
+{"_id": "269_doc", "text": "Write a function to find the ascii value of a character.", "metadata": {}}
+{"_id": "270_doc", "text": "Write a python function to find the sum of even numbers at even positions.", "metadata": {}}
+{"_id": "271_doc", "text": "Write a python function to find the sum of fifth power of first n even natural numbers.", "metadata": {}}
+{"_id": "272_doc", "text": "Write a function to perfom the rear element extraction from list of tuples records.", "metadata": {}}
+{"_id": "273_doc", "text": "Write a function to substract the contents of one tuple with corresponding index of other tuple.", "metadata": {}}
+{"_id": "274_doc", "text": "Write a python function to find sum of even index binomial coefficients.", "metadata": {}}
+{"_id": "275_doc", "text": "Write a python function to find the position of the last removed element from the given array.", "metadata": {}}
+{"_id": "276_doc", "text": "Write a function to find the volume of a cylinder.", "metadata": {}}
+{"_id": "277_doc", "text": "Write a function to filter a dictionary based on values.", "metadata": {}}
+{"_id": "278_doc", "text": "Write a function to find the element count that occurs before the record in the given tuple.", "metadata": {}}
+{"_id": "279_doc", "text": "Write a function to find the nth decagonal number.", "metadata": {}}
+{"_id": "280_doc", "text": "Write a function to search an element in the given array by using sequential search.", "metadata": {}}
+{"_id": "281_doc", "text": "Write a python function to check if the elements of a given list are unique or not.", "metadata": {}}
+{"_id": "282_doc", "text": "Write a function to substaract two lists using map and lambda function.", "metadata": {}}
+{"_id": "283_doc", "text": "Write a python function to check whether the frequency of each digit is less than or equal to the digit itself.", "metadata": {}}
+{"_id": "284_doc", "text": "Write a function to check whether all items of a list are equal to a given string.", "metadata": {}}
+{"_id": "285_doc", "text": "Write a function that matches a string that has an a followed by two to three 'b'.", "metadata": {}}
+{"_id": "286_doc", "text": "Write a function to find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times.", "metadata": {}}
+{"_id": "287_doc", "text": "Write a python function to find the sum of squares of first n even natural numbers.", "metadata": {}}
+{"_id": "288_doc", "text": "Write a function to count array elements having modular inverse under given prime number p equal to itself.", "metadata": {}}
+{"_id": "289_doc", "text": "Write a python function to calculate the number of odd days in a given year.", "metadata": {}}
+{"_id": "290_doc", "text": "Write a function to find the list of lists with maximum length.", "metadata": {}}
+{"_id": "291_doc", "text": "Write a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors.", "metadata": {}}
+{"_id": "292_doc", "text": "Write a python function to find quotient of two numbers.", "metadata": {}}
+{"_id": "293_doc", "text": "Write a function to find the third side of a right angled triangle.", "metadata": {}}
+{"_id": "294_doc", "text": "Write a function to find the maximum value in a given heterogeneous list.", "metadata": {}}
+{"_id": "295_doc", "text": "Write a function to return the sum of all divisors of a number.", "metadata": {}}
+{"_id": "296_doc", "text": "Write a python function to count inversions in an array.", "metadata": {}}
+{"_id": "297_doc", "text": "Write a function to flatten a given nested list structure.", "metadata": {}}
+{"_id": "298_doc", "text": "Write a function to find the nested list elements which are present in another list.", "metadata": {}}
+{"_id": "299_doc", "text": "Write a function to calculate the maximum aggregate from the list of tuples.", "metadata": {}}
+{"_id": "300_doc", "text": "Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.", "metadata": {}}
+{"_id": "301_doc", "text": "Write a function to find the depth of a dictionary.", "metadata": {}}
+{"_id": "302_doc", "text": "Write a python function to find the most significant bit number which is also a set bit.", "metadata": {}}
+{"_id": "303_doc", "text": "Write a python function to check whether the count of inversion of two types are same or not.", "metadata": {}}
+{"_id": "304_doc", "text": "Write a python function to find element at a given index after number of rotations.", "metadata": {}}
+{"_id": "305_doc", "text": "Write a function to match two words from a list of words starting with letter 'p'.", "metadata": {}}
+{"_id": "306_doc", "text": "Write a function to find the maximum sum of increasing subsequence from prefix till ith index and also including a given kth element which is after i, i.e., k > i .", "metadata": {}}
+{"_id": "307_doc", "text": "Write a function to get a colon of a tuple.", "metadata": {}}
+{"_id": "308_doc", "text": "Write a function to find the specified number of largest products from two given lists.", "metadata": {}}
+{"_id": "309_doc", "text": "Write a python function to find the maximum of two numbers.", "metadata": {}}
+{"_id": "310_doc", "text": "Write a function to convert a given string to a tuple.", "metadata": {}}
+{"_id": "311_doc", "text": "Write a python function to set the left most unset bit.", "metadata": {}}
+{"_id": "312_doc", "text": "Write a function to find the volume of a cone.", "metadata": {}}
+{"_id": "313_doc", "text": "Write a python function to print positive numbers in a list.", "metadata": {}}
+{"_id": "314_doc", "text": "Write a function to find out the maximum sum such that no two chosen numbers are adjacent for the given rectangular grid of dimension 2 x n.", "metadata": {}}
+{"_id": "315_doc", "text": "Write a python function to find the first maximum length of even word.", "metadata": {}}
+{"_id": "316_doc", "text": "Write a function to find the index of the last occurrence of a given number in a sorted array.", "metadata": {}}
+{"_id": "317_doc", "text": "Write a function to reflect the modified run-length encoding from a list.", "metadata": {}}
+{"_id": "318_doc", "text": "Write a python function to find the maximum volume of a cuboid with given sum of sides.", "metadata": {}}
+{"_id": "319_doc", "text": "Write a function to find all five characters long word in the given string by using regex.", "metadata": {}}
+{"_id": "320_doc", "text": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.", "metadata": {}}
+{"_id": "321_doc", "text": "Write a function to find the demlo number for the given number.", "metadata": {}}
+{"_id": "322_doc", "text": "Write a function to find all index positions of the minimum values in a given list.", "metadata": {}}
+{"_id": "323_doc", "text": "Write a function to re-arrange the given array in alternating positive and negative items.", "metadata": {}}
+{"_id": "324_doc", "text": "Write a function to extract the sum of alternate chains of tuples.", "metadata": {}}
+{"_id": "325_doc", "text": "Write a python function to find the minimum number of squares whose sum is equal to a given number.", "metadata": {}}
+{"_id": "326_doc", "text": "Write a function to get the word with most number of occurrences in the given strings list.", "metadata": {}}
+{"_id": "327_doc", "text": "Write a function to print check if the triangle is isosceles or not.", "metadata": {}}
+{"_id": "328_doc", "text": "Write a function to rotate a given list by specified number of items to the left direction.", "metadata": {}}
+{"_id": "329_doc", "text": "Write a python function to count negative numbers in a list.", "metadata": {}}
+{"_id": "330_doc", "text": "Write a function to find all three, four, five characters long words in the given string by using regex.", "metadata": {}}
+{"_id": "331_doc", "text": "Write a python function to count unset bits of a given number.", "metadata": {}}
+{"_id": "332_doc", "text": "Write a function to count character frequency of a given string.", "metadata": {}}
+{"_id": "333_doc", "text": "Write a python function to sort a list according to the second element in sublist.", "metadata": {}}
+{"_id": "334_doc", "text": "Write a python function to check whether the triangle is valid or not if sides are given.", "metadata": {}}
+{"_id": "335_doc", "text": "Write a function to find the sum of arithmetic progression.", "metadata": {}}
+{"_id": "336_doc", "text": "Write a function to check whether the given month name contains 28 days or not.", "metadata": {}}
+{"_id": "337_doc", "text": "Write a function that matches a word at the end of a string, with optional punctuation.", "metadata": {}}
+{"_id": "338_doc", "text": "Write a python function to count the number of substrings with same first and last characters.", "metadata": {}}
+{"_id": "339_doc", "text": "Write a python function to find the maximum occuring divisor in an interval.", "metadata": {}}
+{"_id": "340_doc", "text": "Write a python function to find the sum of the three lowest positive numbers from a given list of numbers.", "metadata": {}}
+{"_id": "341_doc", "text": "Write a function to convert the given set into ordered tuples.", "metadata": {}}
+{"_id": "342_doc", "text": "Write a function to find the smallest range that includes at-least one element from each of the given arrays.", "metadata": {}}
+{"_id": "343_doc", "text": "Write a function to calculate the number of digits and letters in a string.", "metadata": {}}
+{"_id": "344_doc", "text": "Write a python function to find number of elements with odd factors in a given range.", "metadata": {}}
+{"_id": "345_doc", "text": "Write a function to find the difference between two consecutive numbers in a given list.", "metadata": {}}
+{"_id": "346_doc", "text": "Write a function to find entringer number e(n, k).", "metadata": {}}
+{"_id": "347_doc", "text": "Write a python function to count the number of squares in a rectangle.", "metadata": {}}
+{"_id": "348_doc", "text": "Write a function to count sequences of given length having non-negative prefix sums that can be generated by given values.", "metadata": {}}
+{"_id": "349_doc", "text": "Write a python function to check whether the given string is a binary string or not.", "metadata": {}}
+{"_id": "350_doc", "text": "Write a python function to minimize the length of the string by removing occurrence of only one character.", "metadata": {}}
+{"_id": "351_doc", "text": "Write a python function to find the first element occurring k times in a given array.", "metadata": {}}
+{"_id": "352_doc", "text": "Write a python function to check whether all the characters in a given string are unique.", "metadata": {}}
+{"_id": "353_doc", "text": "Write a function to remove a specified column from a given nested list.", "metadata": {}}
+{"_id": "354_doc", "text": "Write a function to find t-nth term of arithemetic progression.", "metadata": {}}
+{"_id": "355_doc", "text": "Write a python function to count the number of rectangles in a circle of radius r.", "metadata": {}}
+{"_id": "356_doc", "text": "Write a function to find the third angle of a triangle using two angles.", "metadata": {}}
+{"_id": "357_doc", "text": "Write a function to find the maximum element of all the given tuple records.", "metadata": {}}
+{"_id": "358_doc", "text": "Write a function to find modulo division of two lists using map and lambda function.", "metadata": {}}
+{"_id": "359_doc", "text": "Write a python function to check whether one root of the quadratic equation is twice of the other or not.", "metadata": {}}
+{"_id": "360_doc", "text": "Write a function to find the n’th carol number.", "metadata": {}}
+{"_id": "361_doc", "text": "Write a function to remove empty lists from a given list of lists.", "metadata": {}}
+{"_id": "362_doc", "text": "Write a python function to find the item with maximum occurrences in a given list.", "metadata": {}}
+{"_id": "363_doc", "text": "Write a function to add the k elements to each element in the tuple.", "metadata": {}}
+{"_id": "364_doc", "text": "Write a function to find the number of flips required to make the given binary string a sequence of alternate characters.", "metadata": {}}
+{"_id": "365_doc", "text": "Write a python function to count the number of digits of a given number.", "metadata": {}}
+{"_id": "366_doc", "text": "Write a python function to find the largest product of the pair of adjacent elements from a given list of integers.", "metadata": {}}
+{"_id": "367_doc", "text": "Write a function to check if a binary tree is balanced or not.", "metadata": {}}
+{"_id": "368_doc", "text": "Write a function to repeat the given tuple n times.", "metadata": {}}
+{"_id": "369_doc", "text": "Write a function to find the lateral surface area of cuboid", "metadata": {}}
+{"_id": "370_doc", "text": "Write a function to sort a tuple by its float element.", "metadata": {}}
+{"_id": "371_doc", "text": "Write a function to find the smallest missing element in a sorted array.", "metadata": {}}
+{"_id": "372_doc", "text": "Write a function to sort a given list of elements in ascending order using heap queue algorithm.", "metadata": {}}
+{"_id": "373_doc", "text": "Write a function to find the volume of a cuboid.", "metadata": {}}
+{"_id": "374_doc", "text": "Write a function to print all permutations of a given string including duplicates.", "metadata": {}}
+{"_id": "375_doc", "text": "Write a function to round the given number to the nearest multiple of a specific number.", "metadata": {}}
+{"_id": "376_doc", "text": "Write a function to remove tuple elements that occur more than once and replace the duplicates with some custom value.", "metadata": {}}
+{"_id": "377_doc", "text": "Write a python function to remove all occurrences of a character in a given string.", "metadata": {}}
+{"_id": "378_doc", "text": "Write a python function to shift last element to first position in the given list.", "metadata": {}}
+{"_id": "379_doc", "text": "Write a function to find the surface area of a cuboid.", "metadata": {}}
+{"_id": "380_doc", "text": "Write a function to generate a two-dimensional array.", "metadata": {}}
+{"_id": "381_doc", "text": "Write a function to sort a list of lists by a given index of the inner list.", "metadata": {}}
+{"_id": "382_doc", "text": "Write a function to find the number of rotations in a circularly sorted array.", "metadata": {}}
+{"_id": "383_doc", "text": "Write a python function to toggle all odd bits of a given number.", "metadata": {}}
+{"_id": "384_doc", "text": "Write a python function to find the frequency of the smallest value in a given array.", "metadata": {}}
+{"_id": "385_doc", "text": "Write a function to find the n'th perrin number using recursion.", "metadata": {}}
+{"_id": "386_doc", "text": "Write a function to find out the minimum no of swaps required for bracket balancing in the given string.", "metadata": {}}
+{"_id": "387_doc", "text": "Write a python function to check whether the hexadecimal number is even or odd.", "metadata": {}}
+{"_id": "388_doc", "text": "Write a python function to find the highest power of 2 that is less than or equal to n.", "metadata": {}}
+{"_id": "389_doc", "text": "Write a function to find the n'th lucas number.", "metadata": {}}
+{"_id": "390_doc", "text": "Write a function to insert a given string at the beginning of all items in a list.", "metadata": {}}
+{"_id": "391_doc", "text": "Write a function to convert more than one list to nested dictionary.", "metadata": {}}
+{"_id": "392_doc", "text": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).", "metadata": {}}
+{"_id": "393_doc", "text": "Write a function to find the list with maximum length using lambda function.", "metadata": {}}
+{"_id": "394_doc", "text": "Write a function to check if given tuple is distinct or not.", "metadata": {}}
+{"_id": "395_doc", "text": "Write a python function to find the first non-repeated character in a given string.", "metadata": {}}
+{"_id": "396_doc", "text": "Write a function to check whether the given string starts and ends with the same character or not using regex.", "metadata": {}}
+{"_id": "397_doc", "text": "Write a function to find the median of three specific numbers.", "metadata": {}}
+{"_id": "398_doc", "text": "Write a function to compute the sum of digits of each number of a given list.", "metadata": {}}
+{"_id": "399_doc", "text": "Write a function to perform the mathematical bitwise xor operation across the given tuples.", "metadata": {}}
+{"_id": "400_doc", "text": "Write a function to extract the frequency of unique tuples in the given list order irrespective.", "metadata": {}}
+{"_id": "401_doc", "text": "Write a function to perform index wise addition of tuple elements in the given two nested tuples.", "metadata": {}}
+{"_id": "402_doc", "text": "Write a function to compute the value of ncr%p.", "metadata": {}}
+{"_id": "403_doc", "text": "Write a function to check if a url is valid or not using regex.", "metadata": {}}
+{"_id": "404_doc", "text": "Write a python function to find the minimum of two numbers.", "metadata": {}}
+{"_id": "405_doc", "text": "Write a function to check whether an element exists within a tuple.", "metadata": {}}
+{"_id": "406_doc", "text": "Write a python function to find the parity of a given number.", "metadata": {}}
+{"_id": "407_doc", "text": "Write a function to create the next bigger number by rearranging the digits of a given number.", "metadata": {}}
+{"_id": "408_doc", "text": "Write a function to find k number of pairs which consist of one element from the first array and one element from the second array.", "metadata": {}}
+{"_id": "409_doc", "text": "Write a function to find the minimum product from the pairs of tuples within a given list.", "metadata": {}}
+{"_id": "410_doc", "text": "Write a function to find the minimum value in a given heterogeneous list.", "metadata": {}}
+{"_id": "411_doc", "text": "Write a function to convert the given snake case string to camel case string by using regex.", "metadata": {}}
+{"_id": "412_doc", "text": "Write a python function to remove odd numbers from a given list.", "metadata": {}}
+{"_id": "413_doc", "text": "Write a function to extract the nth element from a given list of tuples.", "metadata": {}}
+{"_id": "414_doc", "text": "Write a python function to check whether the value exists in a sequence or not.", "metadata": {}}
+{"_id": "415_doc", "text": "Write a python function to find a pair with highest product from a given array of integers.", "metadata": {}}
+{"_id": "416_doc", "text": "Write a function to find the maximum sum we can make by dividing number in three parts recursively and summing them up together for the given number.", "metadata": {}}
+{"_id": "417_doc", "text": "Write a function to find common first element in given list of tuple.", "metadata": {}}
+{"_id": "418_doc", "text": "Write a python function to find the sublist having maximum length.", "metadata": {}}
+{"_id": "419_doc", "text": "Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.", "metadata": {}}
+{"_id": "420_doc", "text": "Write a python function to find the cube sum of first n even natural numbers.", "metadata": {}}
+{"_id": "421_doc", "text": "Write a function to concatenate each element of tuple by the delimiter.", "metadata": {}}
+{"_id": "422_doc", "text": "Write a python function to find the average of cubes of first n natural numbers.", "metadata": {}}
+{"_id": "423_doc", "text": "Write a function to solve gold mine problem.", "metadata": {}}
+{"_id": "424_doc", "text": "Write a function to extract only the rear index element of each string in the given tuple.", "metadata": {}}
+{"_id": "425_doc", "text": "Write a function to count the number of sublists containing a particular element.", "metadata": {}}
+{"_id": "426_doc", "text": "Write a function to filter odd numbers using lambda function.", "metadata": {}}
+{"_id": "427_doc", "text": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex.", "metadata": {}}
+{"_id": "428_doc", "text": "Write a function to sort the given array by using shell sort.", "metadata": {}}
+{"_id": "429_doc", "text": "Write a function to extract the elementwise and tuples from the given two tuples.", "metadata": {}}
+{"_id": "430_doc", "text": "Write a function to find the directrix of a parabola.", "metadata": {}}
+{"_id": "431_doc", "text": "Write a function that takes two lists and returns true if they have at least one common element.", "metadata": {}}
+{"_id": "432_doc", "text": "Write a function to find the median of a trapezium.", "metadata": {}}
+{"_id": "433_doc", "text": "Write a function to check whether the entered number is greater than the elements of the given array.", "metadata": {}}
+{"_id": "434_doc", "text": "Write a function that matches a string that has an a followed by one or more b's.", "metadata": {}}
+{"_id": "435_doc", "text": "Write a python function to find the last digit of a given number.", "metadata": {}}
+{"_id": "436_doc", "text": "Write a python function to print negative numbers in a list.", "metadata": {}}
+{"_id": "437_doc", "text": "Write a function to remove odd characters in a string.", "metadata": {}}
+{"_id": "438_doc", "text": "Write a function to count bidirectional tuple pairs.", "metadata": {}}
+{"_id": "439_doc", "text": "Write a function to convert a list of multiple integers into a single integer.", "metadata": {}}
+{"_id": "440_doc", "text": "Write a function to find all adverbs and their positions in a given sentence.", "metadata": {}}
+{"_id": "441_doc", "text": "Write a function to find the surface area of a cube.", "metadata": {}}
+{"_id": "442_doc", "text": "Write a function to find the ration of positive numbers in an array of integers.", "metadata": {}}
+{"_id": "443_doc", "text": "Write a python function to find the largest negative number from the given list.", "metadata": {}}
+{"_id": "444_doc", "text": "Write a function to trim each tuple by k in the given tuple list.", "metadata": {}}
+{"_id": "445_doc", "text": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.", "metadata": {}}
+{"_id": "446_doc", "text": "Write a python function to count the occurence of all elements of list in a tuple.", "metadata": {}}
+{"_id": "447_doc", "text": "Write a function to find cubes of individual elements in a list using lambda function.", "metadata": {}}
+{"_id": "448_doc", "text": "Write a function to calculate the sum of perrin numbers.", "metadata": {}}
+{"_id": "449_doc", "text": "Write a python function to check whether the triangle is valid or not if 3 points are given.", "metadata": {}}
+{"_id": "450_doc", "text": "Write a function to extract specified size of strings from a give list of string values.", "metadata": {}}
+{"_id": "451_doc", "text": "Write a function to remove all whitespaces from the given string using regex.", "metadata": {}}
+{"_id": "452_doc", "text": "Write a function that gives loss amount if the given amount has loss else return none.", "metadata": {}}
+{"_id": "453_doc", "text": "Write a python function to find the sum of even factors of a number.", "metadata": {}}
+{"_id": "454_doc", "text": "Write a function that matches a word containing 'z'.", "metadata": {}}
+{"_id": "455_doc", "text": "Write a function to check whether the given month number contains 31 days or not.", "metadata": {}}
+{"_id": "456_doc", "text": "Write a function to reverse strings in a given list of string values.", "metadata": {}}
+{"_id": "457_doc", "text": "Write a python function to find the sublist having minimum length.", "metadata": {}}
+{"_id": "458_doc", "text": "Write a function to find the area of a rectangle.", "metadata": {}}
+{"_id": "459_doc", "text": "Write a function to remove uppercase substrings from a given string by using regex.", "metadata": {}}
+{"_id": "460_doc", "text": "Write a python function to get the first element of each sublist.", "metadata": {}}
+{"_id": "461_doc", "text": "Write a python function to count the upper case characters in a given string.", "metadata": {}}
+{"_id": "462_doc", "text": "Write a function to find all possible combinations of the elements of a given list.", "metadata": {}}
+{"_id": "463_doc", "text": "Write a function to find the maximum product subarray of the given array.", "metadata": {}}
+{"_id": "464_doc", "text": "Write a function to check if all values are same in a dictionary.", "metadata": {}}
+{"_id": "465_doc", "text": "Write a function to drop empty items from a given dictionary.", "metadata": {}}
+{"_id": "466_doc", "text": "Write a function to find the peak element in the given array.", "metadata": {}}
+{"_id": "467_doc", "text": "Write a python function to convert decimal number to octal number.", "metadata": {}}
+{"_id": "468_doc", "text": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.", "metadata": {}}
+{"_id": "469_doc", "text": "Write a function to find the maximum profit earned from a maximum of k stock transactions", "metadata": {}}
+{"_id": "470_doc", "text": "Write a function to find the pairwise addition of the elements of the given tuples.", "metadata": {}}
+{"_id": "471_doc", "text": "Write a python function to find remainder of array multiplication divided by n.", "metadata": {}}
+{"_id": "472_doc", "text": "Write a python function to check whether the given list contains consecutive numbers or not.", "metadata": {}}
+{"_id": "473_doc", "text": "Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.", "metadata": {}}
+{"_id": "474_doc", "text": "Write a function to replace characters in a string.", "metadata": {}}
+{"_id": "475_doc", "text": "Write a function to sort counter by value.", "metadata": {}}
+{"_id": "476_doc", "text": "Write a python function to find the sum of the largest and smallest value in a given array.", "metadata": {}}
+{"_id": "477_doc", "text": "Write a python function to convert the given string to lower case.", "metadata": {}}
+{"_id": "478_doc", "text": "Write a function to remove lowercase substrings from a given string.", "metadata": {}}
+{"_id": "479_doc", "text": "Write a python function to find the first digit of a given number.", "metadata": {}}
+{"_id": "480_doc", "text": "Write a python function to find the maximum occurring character in a given string.", "metadata": {}}
+{"_id": "481_doc", "text": "Write a function to determine if there is a subset of the given set with sum equal to the given sum.", "metadata": {}}
+{"_id": "482_doc", "text": "Write a function to find sequences of one upper case letter followed by lower case letters in the given string by using regex.", "metadata": {}}
+{"_id": "483_doc", "text": "Write a python function to find the first natural number whose factorial is divisible by x.", "metadata": {}}
+{"_id": "484_doc", "text": "Write a function to remove the matching tuples from the given two tuples.", "metadata": {}}
+{"_id": "485_doc", "text": "Write a function to find the largest palindromic number in the given array.", "metadata": {}}
+{"_id": "486_doc", "text": "Write a function to compute binomial probability for the given number.", "metadata": {}}
+{"_id": "487_doc", "text": "Write a function to sort a list of tuples in increasing order by the last element in each tuple.", "metadata": {}}
+{"_id": "488_doc", "text": "Write a function to find the area of a pentagon.", "metadata": {}}
+{"_id": "489_doc", "text": "Write a python function to find the frequency of the largest value in a given array.", "metadata": {}}
+{"_id": "490_doc", "text": "Write a function to extract all the pairs which are symmetric in the given tuple list.", "metadata": {}}
+{"_id": "491_doc", "text": "Write a function to find the sum of geometric progression series.", "metadata": {}}
+{"_id": "492_doc", "text": "Write a function to search an element in the given array by using binary search.", "metadata": {}}
+{"_id": "493_doc", "text": "Write a function to calculate a grid of hexagon coordinates where function returns a list of lists containing 6 tuples of x, y point coordinates.", "metadata": {}}
+{"_id": "494_doc", "text": "Write a function to convert the given binary tuple to integer.", "metadata": {}}
+{"_id": "495_doc", "text": "Write a function to remove lowercase substrings from a given string by using regex.", "metadata": {}}
+{"_id": "496_doc", "text": "Write a function to find the smallest integers from a given list of numbers using heap queue algorithm.", "metadata": {}}
+{"_id": "497_doc", "text": "Write a function to find the surface area of a cone.", "metadata": {}}
+{"_id": "498_doc", "text": "Write a python function to find gcd of two positive integers.", "metadata": {}}
+{"_id": "499_doc", "text": "Write a function to find the diameter of a circle.", "metadata": {}}
+{"_id": "500_doc", "text": "Write a function to concatenate all elements of the given list into a string.", "metadata": {}}
+{"_id": "501_doc", "text": "Write a python function to find common divisor between two numbers in a given pair.", "metadata": {}}
+{"_id": "502_doc", "text": "Write a python function to find remainder of two numbers.", "metadata": {}}
+{"_id": "503_doc", "text": "Write a function to add consecutive numbers of a given list.", "metadata": {}}
+{"_id": "504_doc", "text": "Write a python function to find the cube sum of first n natural numbers.", "metadata": {}}
+{"_id": "505_doc", "text": "Write a function to move all zeroes to the end of the given array.", "metadata": {}}
+{"_id": "506_doc", "text": "Write a function to calculate the permutation coefficient of given p(n, k).", "metadata": {}}
+{"_id": "507_doc", "text": "Write a function to remove specific words from a given list.", "metadata": {}}
+{"_id": "508_doc", "text": "Write a function to check if the common elements between two given lists are in the same order or not.", "metadata": {}}
+{"_id": "509_doc", "text": "Write a python function to find the average of odd numbers till a given odd number.", "metadata": {}}
+{"_id": "510_doc", "text": "Write a function to find the number of subsequences having product smaller than k for the given non negative array.", "metadata": {}}

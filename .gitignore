@@ -1,0 +1,6 @@
+.idea
+.ipynb_checkpoints
+.vscode
+*.pyc
+/retrieval/ds
+/generation/eval/tasks/ds
