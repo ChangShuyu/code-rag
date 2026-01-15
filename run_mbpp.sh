@@ -52,7 +52,7 @@ python main.py \
 # RAG: With retrieved documents
 python main.py \
     --task "mbpp" \
-    --model "deepseek-ai/deepseek-coder-7b-instruct-v1.5" \
+    --model "deepseek-ai/deepseek-coder-7b-base-v1.5" \
     --dataset_path "json" \
     --data_files_test "../retrieval/results/mbpp_bge_retrieval.json" \
     --topk_docs 3 \
