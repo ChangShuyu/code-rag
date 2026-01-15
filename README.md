@@ -13,6 +13,7 @@ And install the necessary libraries:
 ```
 pip install -r requirements.txt
 ```
+Tips: datasets==3.6.0 for mbpp dataset, and datasets== 4.0.0 for ds1000 dataset.
 
 ## Organization
 - [Retrieval](retrieval/): Code to run retrieval, with BM25, dense retrievers via [sentence-transformers](https://www.sbert.net/), and proprietary API embeddings.
