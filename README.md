@@ -6,7 +6,7 @@ This is the code repository for the project ["CodeRAG-Bench: Can Retrieval Augme
 
 Create a new environment:
 ```
-conda env create -n crag python=3.10 -y
+conda create -n crag python=3.9 -y
 conda activate crag
 ```
 And install the necessary libraries:
