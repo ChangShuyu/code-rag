@@ -130,17 +130,26 @@ def modify_code_with_deepseek(
     """
     Modify a single code snippet using DeepSeek API.
     
+    Multiple patterns in config will be applied TOGETHER in ONE API call.
+    
     Args:
         code: Original Python code
-        config: Pattern configuration, e.g., {'docstrings': 2, 'comments': 1, 'type_hints': 0}
-                Level 0 means no modification for that pattern
+        config: Pattern configuration with multiple patterns
+                Example: {
+                    'docstrings': 2,      # Will apply
+                    'comments': 1,        # Will apply
+                    'type_hints': 1,      # Will apply
+                    'error_handling': 0,  # Will NOT apply (level 0)
+                    'variable_style': 0   # Will NOT apply (level 0)
+                }
+                All patterns with level > 0 are applied TOGETHER in one call
         api_key: DeepSeek API key (or set DEEPSEEK_API_KEY env variable)
         model: Model name ("deepseek-chat" or "deepseek-coder")
-        temperature: Sampling temperature (0.0-1.0, lower = more deterministic)
+        temperature: Sampling temperature (0.0-1.0)
         max_retries: Maximum number of retries on failure
     
     Returns:
-        Modified code string
+        Modified code string with ALL specified patterns applied
     """
     # Get API key
     api_key = api_key or os.getenv("DEEPSEEK_API_KEY")
@@ -153,7 +162,7 @@ def modify_code_with_deepseek(
         base_url="https://api.deepseek.com"
     )
     
-    # Generate instructions
+    # Generate instructions for ALL patterns in config
     pattern_instructions = generate_pattern_instructions(config)
     
     # Create prompt
@@ -203,7 +212,7 @@ def modify_codes_batch(
     
     Args:
         codes: List of original code strings
-        config: Pattern configuration dict
+        config: Pattern configuration dict (same for all codes)
         api_key: DeepSeek API key
         model: Model name
         temperature: Sampling temperature
@@ -240,13 +249,8 @@ def modify_codes_batch(
 # ==================== Usage Examples ====================
 
 if __name__ == "__main__":
-    # Set your API key (or export DEEPSEEK_API_KEY environment variable)
+    # Set your API key
     # os.environ["DEEPSEEK_API_KEY"] = "your-api-key-here"
-    
-    # ========== Example 1: Single Code - Moderate Configuration ==========
-    print("=" * 60)
-    print("Example 1: Single Code - Moderate Configuration")
-    print("=" * 60)
     
     original_code = """
 def last_occurence_char(string, char):
@@ -260,27 +264,33 @@ def last_occurence_char(string, char):
         return flag + 1
 """
     
-    config_moderate = {
-        'docstrings': 2,
-        'comments': 2,
-        'type_hints': 1,
-        'error_handling': 1,
-        'variable_style': 1,
-    }
-    
-    modified_code = modify_code_with_deepseek(original_code, config_moderate)
-    
-    print("\nOriginal Code:")
-    print(original_code)
-    print("\nModified Code:")
-    print(modified_code)
-    
-    # ========== Example 2: Single Code - Only Docstring ==========
-    print("\n" + "=" * 60)
-    print("Example 2: Single Code - Only Docstring (Level 1)")
+    # ========== Example 1: 同时应用多个patterns（一次调用） ==========
+    print("=" * 60)
+    print("Example 1: 同时修改 docstrings + comments + type_hints")
     print("=" * 60)
     
-    config_minimal = {
+    config = {
+        'docstrings': 2,      # 会应用
+        'comments': 2,        # 会应用
+        'type_hints': 1,      # 会应用
+        'error_handling': 0,  # 不应用
+        'variable_style': 1,  # 会应用
+    }
+    
+    # 一次API调用，同时应用4个patterns！
+    result = modify_code_with_deepseek(original_code, config)
+    
+    print("\nOriginal:")
+    print(original_code)
+    print("\nModified (应用了 docstrings + comments + type_hints + variable_style):")
+    print(result)
+    
+    # ========== Example 2: 只修改一个pattern ==========
+    print("\n" + "=" * 60)
+    print("Example 2: 只修改 docstrings")
+    print("=" * 60)
+    
+    config_single = {
         'docstrings': 1,
         'comments': 0,
         'type_hints': 0,
@@ -288,17 +298,16 @@ def last_occurence_char(string, char):
         'variable_style': 0,
     }
     
-    modified_code_minimal = modify_code_with_deepseek(original_code, config_minimal)
+    result_single = modify_code_with_deepseek(original_code, config_single)
+    print("\nModified:")
+    print(result_single)
     
-    print("\nModified Code:")
-    print(modified_code_minimal)
-    
-    # ========== Example 3: Single Code - Aggressive ==========
+    # ========== Example 3: 全部patterns都修改（aggressive） ==========
     print("\n" + "=" * 60)
-    print("Example 3: Single Code - Aggressive Configuration")
+    print("Example 3: 修改全部5个patterns")
     print("=" * 60)
     
-    config_aggressive = {
+    config_all = {
         'docstrings': 3,
         'comments': 3,
         'type_hints': 3,
@@ -306,86 +315,46 @@ def last_occurence_char(string, char):
         'variable_style': 3,
     }
     
-    modified_code_aggressive = modify_code_with_deepseek(original_code, config_aggressive)
+    result_all = modify_code_with_deepseek(original_code, config_all)
+    print("\nModified:")
+    print(result_all)
     
-    print("\nModified Code:")
-    print(modified_code_aggressive)
-    
-    # ========== Example 4: Batch Processing ==========
+    # ========== Example 4: Batch处理多个代码 ==========
     print("\n" + "=" * 60)
-    print("Example 4: Batch Processing Multiple Codes")
+    print("Example 4: 批量处理3个代码（同样的config）")
     print("=" * 60)
     
     codes = [
         """
-def remove_char(s, c):
-    counts = s.count(c)
-    s = list(s)
-    while counts:
-        s.remove(c)
-        counts -= 1
-    s = ''.join(s)
-    return s
-""",
-        """
-def add_numbers(a, b):
+def add(a, b):
     return a + b
 """,
         """
-def find_max(lst):
-    m = lst[0]
-    for x in lst:
-        if x > m:
-            m = x
-    return m
+def multiply(x, y):
+    result = x * y
+    return result
+""",
+        """
+def find_max(numbers):
+    max_val = numbers[0]
+    for num in numbers:
+        if num > max_val:
+            max_val = num
+    return max_val
 """
     ]
     
-    config_batch = {
+    batch_config = {
         'docstrings': 2,
         'type_hints': 1,
         'variable_style': 1,
     }
     
-    modified_codes = modify_codes_batch(codes, config_batch, delay=1.0)
+    batch_results = modify_codes_batch(codes, batch_config, delay=1.0)
     
-    for i, (original, modified) in enumerate(zip(codes, modified_codes)):
-        print(f"\n--- Code {i + 1} ---")
+    for i, (orig, modified) in enumerate(zip(codes, batch_results), 1):
+        print(f"\n--- Code {i} ---")
         print("Original:")
-        print(original)
+        print(orig.strip())
         print("\nModified:")
         print(modified)
-    
-    # ========== Example 5: Selective Patterns ==========
-    print("\n" + "=" * 60)
-    print("Example 5: Selective Patterns (Docstring + Type Hints Only)")
-    print("=" * 60)
-    
-    config_selective = {
-        'docstrings': 2,
-        'type_hints': 2,
-        # Other patterns implicitly 0 (no modification)
-    }
-    
-    modified_code_selective = modify_code_with_deepseek(original_code, config_selective)
-    
-    print("\nModified Code:")
-    print(modified_code_selective)
-    
-    # ========== Example 6: No Modifications ==========
-    print("\n" + "=" * 60)
-    print("Example 6: No Modifications (All Zeros)")
-    print("=" * 60)
-    
-    config_no_change = {
-        'docstrings': 0,
-        'comments': 0,
-        'type_hints': 0,
-        'error_handling': 0,
-        'variable_style': 0,
-    }
-    
-    modified_code_no_change = modify_code_with_deepseek(original_code, config_no_change)
-    
-    print("\nModified Code:")
-    print(modified_code_no_change)
