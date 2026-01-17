@@ -28,66 +28,21 @@ from eval.tasks import ALL_TASKS
 # ============================================================================
 
 # -------------------- 输入数据配置 --------------------
-# 从 retrieval/results/mbpp_bge_retrieval.json 复制的真实数据
-INPUT_DATA = [
-    {
-        "task_id": 11,
-        "text": "Write a python function to remove first and last occurrence of a given character from the string.",
-        "code": "def remove_Occ(s,ch): \r\n    for i in range(len(s)): \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    for i in range(len(s) - 1,-1,-1):  \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    return s ",
-        "test_list": [
-            "assert remove_Occ(\"hello\",\"l\") == \"heo\"",
-            "assert remove_Occ(\"abcda\",\"a\") == \"bcd\"",
-            "assert remove_Occ(\"PHP\",\"P\") == \"H\""
-        ],
-        "test_setup_code": "",
-        "challenge_test_list": [
-            "assert remove_Occ(\"hellolloll\",\"l\") == \"helollol\"",
-            "assert remove_Occ(\"\",\"l\") == \"\""
-        ],
-        "docs": [
-            # {
-            #     "text": "# Write a python function to remove first and last occurrence of a given character from the string.\ndef remove_Occ(s,ch): \r\n    for i in range(len(s)): \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    for i in range(len(s) - 1,-1,-1):  \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    return s ",
-            #     "title": "remove_Occ"
-            # },
-            {
-                "text": "# Write a python function to remove all occurrences of a character in a given string.\ndef remove_Char(s,c) :  \r\n    counts = s.count(c) \r\n    s = list(s) \r\n    while counts :  \r\n        s.remove(c) \r\n        counts -= 1 \r\n    s = '' . join(s)   \r\n    return (s) ",
-                "title": "remove_Char"
-            },
-            {
-                "text": "# Write a function to find the last occurrence of a character in a string.\ndef last_occurence_char(string,char):\r\n flag = -1\r\n for i in range(len(string)):\r\n     if(string[i] == char):\r\n         flag = i\r\n if(flag == -1):\r\n    return None\r\n else:\r\n    return flag + 1",
-                "title": "last_occurence_char"
-            },
-            {
-                "text": "# Write a python function to replace multiple occurence of character by single.\nimport re \r\ndef replace(string, char): \r\n    pattern = char + '{2,}'\r\n    string = re.sub(pattern, char, string) \r\n    return string ",
-                "title": "replace"
-            },
-            {
-                "text": "# Write a python function to remove all digits from a list of strings.\nimport re  \r\ndef remove(list): \r\n    pattern = '[0-9]'\r\n    list = [re.sub(pattern, '', i) for i in list] \r\n    return list",
-                "title": "remove"
-            },
-            {
-                "text": "# Write a python function to count the occurrence of a given character in a string.\ndef count(s,c) : \r\n    res = 0 \r\n    for i in range(len(s)) : \r\n        if (s[i] == c): \r\n            res = res + 1\r\n    return res ",
-                "title": "count"
-            },
-            {
-                "text": "# Write a function to remove odd characters in a string.\ndef remove_odd(str1):\r\n str2 = ''\r\n for i in range(1, len(str1) + 1):\r\n    if(i % 2 == 0):\r\n        str2 = str2 + str1[i - 1]\r\n return str2",
-                "title": "remove_odd"
-            },
-            {
-                "text": "# Write a function to remove all characters except letters and numbers using regex\nimport re \r\ndef remove_char(S):\r\n  result = re.sub('[\\W_]+', '', S) \r\n  return result",
-                "title": "remove_char"
-            },
-            {
-                "text": "# Write a function to remove lowercase substrings from a given string.\nimport re\r\ndef remove_lowercase(str1):\r\n remove_lower = lambda text: re.sub('[a-z]', '', text)\r\n result =  remove_lower(str1)\r\n return result",
-                "title": "remove_lowercase"
-            },
-            {
-                "text": "# Write a function to remove even characters in a string.\ndef remove_even(str1):\r\n str2 = ''\r\n for i in range(1, len(str1) + 1):\r\n    if(i % 2 != 0):\r\n        str2 = str2 + str1[i - 1]\r\n return str2",
-                "title": "remove_even"
-            }
-        ]
-    }
-]
+# 从文件中读取数据
+INPUT_DATA_FILE = "../retrieval/results/mbpp_bge_retrieval.json"  # 数据文件路径
+INPUT_DATA_LIMIT = 10  # 读取前几条数据
+
+# 读取数据（支持 JSONL 格式）
+INPUT_DATA = []
+with open(INPUT_DATA_FILE, "r") as f:
+    for i, line in enumerate(f):
+        if i >= INPUT_DATA_LIMIT:
+            break
+        data = json.loads(line.strip())
+        # 忽略第一个检索到的文档
+        if "docs" in data and len(data["docs"]) > 0:
+            data["docs"] = data["docs"][1:]
+        INPUT_DATA.append(data)
 
 # -------------------- 任务配置 --------------------
 TASK_NAME = "mbpp"  # 任务名称: humaneval, mbpp, ds1000, odex, repoeval-function, swebench-lite
@@ -109,7 +64,7 @@ MAX_MEMORY_PER_GPU = None
 # -------------------- 生成参数 --------------------
 BATCH_SIZE = 1
 MAX_LENGTH_INPUT = 1024
-MAX_LENGTH_GENERATION = 2048
+MAX_LENGTH_GENERATION = 4096
 TOPK_DOCS = 5  # RAG 模式下使用的检索文档数量
 
 # EvalArguments 参数
