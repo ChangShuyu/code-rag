@@ -1,6 +1,7 @@
 .idea
 .ipynb_checkpoints
 .vscode
+.DS_Store
 *.pyc
 /retrieval/ds
 /generation/eval/tasks/ds
