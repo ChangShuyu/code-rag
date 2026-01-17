@@ -127,8 +127,8 @@ SEED = 0
 LIMIT = None  # 处理多少条数据（None = 全部）
 LIMIT_START = 0  # 从第几条开始
 POSTPROCESS = True  # 是否后处理
-ALLOW_CODE_EXECUTION = False  # 是否允许代码执行（评估需要）
-GENERATION_ONLY = True  # 仅生成，不评估
+ALLOW_CODE_EXECUTION = True  # 是否允许代码执行（评估需要）⚠️ 注意：会执行生成的代码
+GENERATION_ONLY = False  # 生成并评估（计算 pass@1）
 SAVE_EVERY_K_TASKS = -1
 
 # -------------------- 数据集配置 --------------------
@@ -139,11 +139,11 @@ DATA_FILES_TEST = None  # JSON 文件路径
 CACHE_DIR = None
 
 # -------------------- 输出配置 --------------------
-METRIC_OUTPUT_PATH = "evaluation_results.json"
+METRIC_OUTPUT_PATH = "single_evaluation_results.json"  # 保存 pass@1 等评估指标
 SAVE_GENERATIONS = True
-SAVE_GENERATIONS_PATH = "generations.json"
-SAVE_REFERENCES = False
-SAVE_REFERENCES_PATH = "references.json"
+SAVE_GENERATIONS_PATH = "single_generations.json"  # 保存生成的代码
+SAVE_REFERENCES = True
+SAVE_REFERENCES_PATH = "single_references.json"  # 保存参考答案和测试用例
 LOAD_GENERATIONS_PATH = None  # 如果提供，则跳过生成，只做评估
 LOAD_DATA_PATH = None
 CHECK_REFERENCES = False
