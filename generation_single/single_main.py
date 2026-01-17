@@ -45,10 +45,10 @@ INPUT_DATA = [
             "assert remove_Occ(\"\",\"l\") == \"\""
         ],
         "docs": [
-            {
-                "text": "# Write a python function to remove first and last occurrence of a given character from the string.\ndef remove_Occ(s,ch): \r\n    for i in range(len(s)): \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    for i in range(len(s) - 1,-1,-1):  \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    return s ",
-                "title": "remove_Occ"
-            },
+            # {
+            #     "text": "# Write a python function to remove first and last occurrence of a given character from the string.\ndef remove_Occ(s,ch): \r\n    for i in range(len(s)): \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    for i in range(len(s) - 1,-1,-1):  \r\n        if (s[i] == ch): \r\n            s = s[0 : i] + s[i + 1:] \r\n            break\r\n    return s ",
+            #     "title": "remove_Occ"
+            # },
             {
                 "text": "# Write a python function to remove all occurrences of a character in a given string.\ndef remove_Char(s,c) :  \r\n    counts = s.count(c) \r\n    s = list(s) \r\n    while counts :  \r\n        s.remove(c) \r\n        counts -= 1 \r\n    s = '' . join(s)   \r\n    return (s) ",
                 "title": "remove_Char"
@@ -108,7 +108,7 @@ MAX_MEMORY_PER_GPU = None
 
 # -------------------- 生成参数 --------------------
 BATCH_SIZE = 1
-MAX_LENGTH_INPUT = 512
+MAX_LENGTH_INPUT = 1024
 MAX_LENGTH_GENERATION = 2048
 TOPK_DOCS = 5  # RAG 模式下使用的检索文档数量
 
@@ -127,7 +127,7 @@ SEED = 0
 LIMIT = None  # 处理多少条数据（None = 全部）
 LIMIT_START = 0  # 从第几条开始
 POSTPROCESS = True  # 是否后处理
-ALLOW_CODE_EXECUTION = True  # 是否允许代码执行（评估需要）⚠️ 注意：会执行生成的代码
+ALLOW_CODE_EXECUTION = True  # 是否允许代码执行（评估需要）
 GENERATION_ONLY = False  # 生成并评估（计算 pass@1）
 SAVE_EVERY_K_TASKS = -1
 
@@ -141,9 +141,8 @@ CACHE_DIR = None
 # -------------------- 输出配置 --------------------
 METRIC_OUTPUT_PATH = "single_evaluation_results.json"  # 保存 pass@1 等评估指标
 SAVE_GENERATIONS = True
-SAVE_GENERATIONS_PATH = "single_generations.json"  # 保存生成的代码
-SAVE_REFERENCES = True
-SAVE_REFERENCES_PATH = "single_references.json"  # 保存参考答案和测试用例
+SAVE_GENERATIONS_PATH = "single_generations.json"  # 会自动加任务名：single_generations_mbpp.json
+SAVE_REFERENCES = False  # 会自动保存为 references_mbpp.json
 LOAD_GENERATIONS_PATH = None  # 如果提供，则跳过生成，只做评估
 LOAD_DATA_PATH = None
 CHECK_REFERENCES = False
@@ -273,7 +272,6 @@ def create_args_from_config():
     args.save_generations = SAVE_GENERATIONS
     args.save_generations_path = SAVE_GENERATIONS_PATH
     args.save_references = SAVE_REFERENCES
-    args.save_references_path = SAVE_REFERENCES_PATH
     args.load_generations_path = LOAD_GENERATIONS_PATH
     args.load_generations_intermediate_paths = None
     args.load_data_path = LOAD_DATA_PATH
@@ -548,6 +546,36 @@ def main():
                 results[task] = evaluator.evaluate(
                     task, intermediate_generations=intermediate_generations
                 )
+
+    # 计算生成代码的 token 长度
+    if not accelerator or accelerator.is_main_process:
+        for task in task_names:
+            save_generations_path = f"{os.path.splitext(args.save_generations_path)[0]}_{task}.json"
+            if os.path.exists(save_generations_path):
+                with open(save_generations_path, "r") as f:
+                    generations = json.load(f)
+
+                code_lengths = []
+                for gen_list in generations:
+                    for code in gen_list:
+                        if args.model_backend == "api":
+                            # API: 估算 (4 chars ≈ 1 token)
+                            code_lengths.append(len(code) // 4)
+                        elif tokenizer is not None:
+                            # HF/vLLM: 使用 tokenizer
+                            tokens = tokenizer.encode(code, add_special_tokens=False)
+                            code_lengths.append(len(tokens))
+                        else:
+                            # 后备: 字符数
+                            code_lengths.append(len(code))
+
+                if code_lengths and task in results:
+                    results[task]["code_length_stats"] = {
+                        "mean": round(sum(code_lengths) / len(code_lengths), 1),
+                        "max": max(code_lengths),
+                        "min": min(code_lengths),
+                        "total": len(code_lengths)
+                    }
 
     # Save all args to config
     results["config"] = vars(args)
